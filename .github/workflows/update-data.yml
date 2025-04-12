@@ -1,0 +1,53 @@
+name: 更新信用卡優惠資料
+
+on:
+  schedule:
+    # 每週一 09:00（台灣時間）= 01:00 UTC
+    - cron: '0 1 * * 1'
+  # 可在 GitHub → Actions → 「更新信用卡優惠資料」→ Run workflow 手動觸發
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: 安裝相依套件
+        run: pip install -r requirements.txt
+
+      - name: 執行爬蟲並以 LLM 解析
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scraper.py
+
+      # 不直接 commit 到 main，而是開 PR 讓人工審核 diff
+      - name: 建立 Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/update-campaigns
+          delete-branch: true
+          commit-message: '自動更新信用卡優惠資料'
+          title: '🤖 自動更新信用卡優惠資料'
+          body: |
+            由 GitHub Actions 排程／手動觸發自動產生。
+
+            合併前請確認：
+            - [ ] 回饋比例、活動期間與官網一致
+            - [ ] 沒有重複的方案
+            - [ ] 沒有遺漏或被誤刪的方案
+          labels: data-update
+          add-paths: src/assets/campaigns.json

@@ -45,7 +45,7 @@
     </div>
     <footer class="footer text-center mt-5 bg-light">
       <p class="fs-3 fw-bold">謹慎理財 信用至上</p>
-      <p>最後更新 2025年8月7日 © 2025 Tingli</p>
+      <p>最後更新 2026年2月21日 © 2025 Tingli</p>
       <p>
         <a href="https://line.me/ti/p/wS8xxwAxjG" class="text-decoration-none text-body">線上客服</a>｜
         <span href="/privacy-policy">服務專線 0973-033525</span>
@@ -80,13 +80,19 @@ const groupedCampaigns = computed(() => {
   return groups;
 });
 
-const highlightRegex = computed(() => {
-  const query = searchQuery.value.trim();
-  return query ? new RegExp(`(${query})`, 'gi') : null;
-});
+const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const escapeHtml = (s: string) =>
+  s.replace(/[&<>"']/g, (c) =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!
+  );
 
 const highlightText = (text: string) => {
-  if (!highlightRegex.value) return text;
-  return text.replace(highlightRegex.value, '<span class="highlight">$1</span>');
+  const safe = escapeHtml(text);
+  const q = searchQuery.value.trim();
+  if (!q) return safe;
+  return safe.replace(
+    new RegExp(`(${escapeRegExp(escapeHtml(q))})`, 'gi'),
+    '<mark>$1</mark>'
+  );
 };
 </script>
