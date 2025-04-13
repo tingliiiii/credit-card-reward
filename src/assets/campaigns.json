@@ -281,5 +281,103 @@
         "link": [
             "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
         ]
+    },
+    {
+        "campaignName": "精選消費",
+        "rewardRates": [
+            "一般消費 0.3%（無上限）+ 加碼 2.7%（每期帳單上限1500點）"
+        ],
+        "period": "2024/12/1~2025/8/31結帳帳單",
+        "card": "台新@GoGo卡",
+        "details": [
+            "行動支付：街口支付 | 台新Pay",
+            "網購：蝦皮 | momo | 酷澎（Coupang） | PChome | Yahoo | Amazon | 東森 | 博客來 | Richart Mart（2025/3/1起新增）",
+            "訂房網：Agoda | Trip.com | Booking.com | Airbnb | Hotels.com | Expedia （限於訂房網線上刷卡之消費）"
+        ],
+        "link": [
+            "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/future/c1744cc9-8161-11ef-b432-0050568c09e3"
+        ]
+    },
+    {
+        "campaignName": "月月領券",
+        "rewardRates": [
+            "6%～10%"
+        ],
+        "period": "2025/3/1~2025/5/31",
+        "card": "台新@GoGo卡",
+        "details": [
+            "新光三越skm pay綁定@GoGo卡消費最高享10%（上限2000點）",
+            "「全聯福利中心、全家便利商店、7-ELEVEN」實體門市消費最高享6% （2025/4/1起開放「全聯儲值、兩大超商繳稅費交易（例: 繳牌照稅、水電費等）」適用6%加碼回饋）（上限2000點）",
+            "Uber Eats、foodpanda消費最高享6%（上限200點）",
+            "蝦皮、momo、PChome、酷澎、Yahoo、Amazon、東森、博客來、Richart Mart 加碼3%（上限500點）",
+            "中油直營加油消費最高享6%（上限200點）"
+        ],
+        "link": [
+            "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/future/dfbf6db8-ab97-11ee-be9b-0050568c09e3"
+        ]
+    },
+    {
+        "campaignName": "天天刷",
+        "rewardRates": [
+            "3.3%（每期帳單上限10,000點）"
+        ],
+        "period": "2025/1/2～2025/6/30",
+        "card": "台新太陽玫瑰卡",
+        "details": [
+            "超商量販：7-11 及全家（限使用台新Pay綁定支付）、家樂福",
+            "通勤交通：高鐵、台鐵、台灣大車隊、Yoxi、Uber",
+            "停車租車：嘟嘟房、Autopass（車麻吉）、城市車旅、ViViPark、iRent、和運租車、格上租車"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/s/2025/TSRoseApolloCard2503/index.html"
+        ]
+    },
+    {
+        "campaignName": "好響刷",
+        "rewardRates": [
+            "3.3%（每期帳單上限10,000點）"
+        ],
+        "period": "2025/1/2～2025/6/30",
+        "card": "台新太陽玫瑰卡",
+        "details": [
+            "全台餐飲（不含餐券）",
+            "外送平台：Uber Eats、Foodpanda",
+            "展演購票：拓元售票、KKTIX、年代售票、寬宏售票、OPENTIX兩廳院文化生活",
+            "加油充電：中油直營、台亞直營、全國加油、源點 EVOASIS、華城電能 EVALUE",
+            "指定樂園：義大遊樂世界、麗寶樂園、六福村主題遊樂園、劍湖山世界主題遊樂園、九族文化村、X-Park、國立海洋生物博物館、遠雄海洋公園、大魯閣、小人國主題樂園",
+            "指定飯店：晶華集團、煙波飯店、老爺酒店集團、福華集團、台灣萬豪國際集團旗下飯店、漢來飯店事業群、台北君悅、高雄洲際酒店、礁溪寒沐"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/s/2025/TSRoseApolloCard2503/index.html"
+        ]
+    },
+    {
+        "campaignName": "大筆刷",
+        "rewardRates": [
+            "3.3%（每期帳單上限10,000點）"
+        ],
+        "period": "2025/1/2～2025/6/30",
+        "card": "台新太陽玫瑰卡",
+        "details": [
+            "指定百貨：新光三越、遠東 SOGO、廣三SOGO、遠東百貨、微風、台北101、遠東巨城、南紡購物中心、漢神百貨、漢神巨蛋、誠品生活",
+            "指定Outlet：MITSUI OUTLET PARK（林口、台中港、台南）、Mitsui Shopping Park LaLaport（南港、台中，2025/4/1起）、華泰名品城、SKM Park Outlets",
+            "訂房旅行：雄獅旅遊、易遊網、Agoda、Booking.com"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/s/2025/TSRoseApolloCard2503/index.html"
+        ]
+    },
+    {
+        "campaignName": "海外刷",
+        "rewardRates": [
+            "3.3%（每期帳單上限10,000點）"
+        ],
+        "period": "2025/1/2～2025/6/30",
+        "card": "台新太陽玫瑰卡",
+        "details": [
+            "日本、韓國、美國、英國、愛爾蘭、法國、摩納哥、德國、荷蘭、比利時、盧森堡、瑞士、列支敦士登、芬蘭、挪威、瑞典、冰島、丹麥、奧地利、匈牙利、捷克、斯洛伐克、斯洛維尼亞、西班牙、葡萄牙、義大利、克羅埃西亞、希臘、賽普勒斯、馬爾他、保加利亞、羅馬尼亞、塞爾維亞、波蘭、白俄羅斯、烏克蘭、立陶宛、拉脫維亞、愛沙尼亞"
+        ],
+        "link": ["https://mkp.taishinbank.com.tw/s/2025/TSRoseApolloCard2503/index.html"]
     }
+    
 ]

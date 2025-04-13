@@ -3,20 +3,24 @@
 
 #app {
   font-family: 'Noto Sans TC', 'Microsoft JhengHei', system-ui, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #e9edca;
   padding: 20px;
   min-height: 100vh;
 }
 
 .bg-light {
-  background-color: #f0f0f0 !important;
+  background-color: #e9edca !important;
+}
+
+header h1 {
+  letter-spacing: 0.1rem;
 }
 
 /* 搜尋欄樣式 */
 .search-bar {
-  margin: 3rem auto 0;
-  padding-bottom: 3rem;
-  width: 50%;
+  margin: 0 auto;
+  padding: 1.5rem 0 3rem;
+  width: 70%;
 }
 
 /* 卡片樣式 */
@@ -28,6 +32,15 @@
 
 .card-body {
   width: 100%;
+}
+
+.card-title{
+  color: #333;
+  letter-spacing: .05rem;
+}
+
+.text-success{
+  color: #87986b !important;
 }
 
 /* 高亮樣式 */

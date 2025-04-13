@@ -2,15 +2,18 @@
   "extends": "@vue/tsconfig/tsconfig.dom.json",
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-
-    /* Linting */
+    
+    "target": "esnext",
+    "module": "esnext",
     "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "resolveJsonModule": true,
-    "esModuleInterop": true
+    "types": ["vite/client", "vue"]
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue","src/**/*.json"]
 }
