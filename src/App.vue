@@ -36,7 +36,7 @@
 import { ref, computed } from 'vue';
 import campaigns from './assets/campaigns.json';
 
-const searchQuery = ref('');
+const searchQuery = ref<string>('');
 
 const filteredCampaigns = computed(() => {
   const query = searchQuery.value.trim().toLowerCase();

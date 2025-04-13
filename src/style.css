@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
 #app {
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  font-family: 'Noto Sans TC', 'Microsoft JhengHei', system-ui, sans-serif;
   background-color: #f0f0f0;
   padding: 20px;
   min-height: 100vh;
