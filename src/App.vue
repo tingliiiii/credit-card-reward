@@ -1,76 +1,61 @@
 <template>
-  <div id="app" class="container">
-    <h1 class="text-center m-5">回饋查詢小工具</h1>
-
-    <!-- 搜尋欄 -->
-    <header class="search-bar">
-      <input type="text" placeholder="查詢要消費的店家" class="form-control" v-model="searchQuery" />
+  <div class="container">
+    <header class="sticky-top bg-light">
+      <h1 class="text-center m-5">回饋查詢小工具</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="查詢要消費的店家" class="form-control" v-model="searchQuery" />
+      </div>
     </header>
 
-    <!-- 卡片格式的 Section -->
-    <main>
-      <div class="row">
-        <section v-for="section in filteredSections" :key="section.id" :id="section.id" class="col mb-4">
-          <div class="card h-100">
-            <div class="card-body">
-              <h5 class="card-title" v-html="highlightText(section.title)"></h5>
-              <ul class="list-group list-group-flush">
-                <li v-for="detail in section.details" :key="detail" class="list-group-item"
-                  v-html="highlightText(detail)"></li>
-              </ul>
-            </div>
+    <div class="row">
+      <section v-for="campaign in filteredCampaigns" :key="campaign.campaignName" class="col-12 col-md-6 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title" v-html="highlightText(campaign.campaignName)"></h5>
+            <p>
+              <small>{{ campaign.card }} | {{ campaign.period }}</small>
+            </p>
+            <p v-for="rate in campaign.rewardRates" :key="rate" v-html="highlightText(rate)"
+              class="reward-summary text-success font-weight-bold"></p>
+            <p v-for="detail in campaign.details" :key="detail" v-html="highlightText(detail)"></p>
+            <p>
+              <a v-for="(link, index) in campaign.link" :key="index" :href="link" target="_blank" class="btn btn-sm btn-outline-secondary mt-2 me-2">
+              🔗 查看詳情
+              </a>
+            </p>
+
           </div>
-        </section>
-      </div>
-    </main>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
+
 <script setup lang="ts">
 import { ref, computed } from 'vue';
+import campaigns from './assets/campaigns.json';
 
 const searchQuery = ref('');
-const sections = ref([
-  {
-    id: 'japan',
-    title: '日本賞',
-    details: ['適用期間：2025/2/24~2025/4/30', '優惠：日本實體消費3.5%回饋。'],
-  },
-  {
-    id: 'digital',
-    title: '玩數位',
-    details: ['數位消費回饋詳情。'],
-  },
-  {
-    id: 'shopdine',
-    title: '樂饗購',
-    details: ['指定美食/購物消費回饋詳情。'],
-  },
-  {
-    id: 'travel',
-    title: '趣旅行',
-    details: ['適用期間：2025/1/1~2025/6/30', '海外實體消費回饋詳情。'],
-  },
-]);
 
-const filteredSections = computed(() => {
-  if (!searchQuery.value.trim()) {
-    return sections.value;
-  }
-  const query = searchQuery.value.toLowerCase();
-  return sections.value.filter(
-    (section) =>
-      section.title.toLowerCase().includes(query) ||
-      section.details.some((detail) => detail.toLowerCase().includes(query))
+const filteredCampaigns = computed(() => {
+  const query = searchQuery.value.trim().toLowerCase();
+  if (!query) return campaigns;
+  return campaigns.filter((campaign) =>
+    [campaign.campaignName, campaign.card, ...campaign.rewardRates, ...campaign.details]
+      .some((field) => field.toLowerCase().includes(query))
   );
 });
 
+const highlightRegex = computed(() => {
+  const query = searchQuery.value.trim();
+  return query ? new RegExp(`(${query})`, 'gi') : null;
+});
+
 const highlightText = (text: string) => {
-  if (!searchQuery.value.trim()) {
+  if (!highlightRegex.value) {
     return text;
   }
-  const query = searchQuery.value;
-  const regex = new RegExp(`(${query})`, 'gi'); // 建立正則表達式，忽略大小寫
-  return text.replace(regex, '<span class="highlight">$1</span>'); // 用 <span> 包裹關鍵字
+  return text.replace(highlightRegex.value, '<span class="highlight">$1</span>');
 };
 </script>

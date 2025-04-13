@@ -1,18 +1,37 @@
+/* 全域設定 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+#app {
+  font-family: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.bg-light {
+  background-color: #f0f0f0 !important;
+}
+
 /* 搜尋欄樣式 */
 .search-bar {
-    margin: 3rem auto;
-    width: 50%;
-  }
-  
-  /* 卡片樣式 */
-  .card {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-  }
-  
-  /* 高亮樣式 */
-  .highlight {
-    background-color: yellow;
-    font-weight: bold;
-  }
+  margin: 3rem auto 0;
+  padding-bottom: 3rem;
+  width: 50%;
+}
+
+/* 卡片樣式 */
+.card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card-body {
+  width: 100%;
+}
+
+/* 高亮樣式 */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
