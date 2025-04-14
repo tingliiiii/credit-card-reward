@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
 #app {
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei', system-ui, sans-serif;
+  font-family: 'Microsoft JhengHei', 'Noto Sans TC', system-ui, sans-serif;
   background-color: #e9edca;
   padding: 20px;
   min-height: 100vh;
@@ -20,7 +20,7 @@ header h1 {
 .search-bar {
   margin: 0 auto;
   padding: 1.5rem 0 3rem;
-  width: 70%;
+  width: 80%;
 }
 
 /* 卡片樣式 */
@@ -40,7 +40,11 @@ header h1 {
 }
 
 .text-success{
-  color: #87986b !important;
+  color: #728359 !important;
+}
+
+.bg-success-subtle {
+  background-color: #e9edca !important;
 }
 
 /* 高亮樣式 */
