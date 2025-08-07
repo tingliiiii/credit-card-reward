@@ -10,7 +10,7 @@
     </header>
 
     <div v-if="Object.keys(groupedCampaigns).length === 0" class="text-center mt-5">
-      <p>找不到 <strong>{{ searchQuery }}</strong> 有回饋的信用卡，要不要試試看LINE Pay、街口支付？</p>
+      <p>找不到 <strong>{{ searchQuery }}</strong> 有回饋的信用卡，要不要試試看LINE Pay、餐飲？</p>
     </div>
 
     <div v-else>
@@ -31,11 +31,6 @@
                 <ul class="small text-body-secondary ps-3 mb-2">
                   <li v-for="detail in campaign.details" :key="detail" v-html="highlightText(detail)"></li>
                 </ul>
-                <!-- <p>
-                  <span v-for="(rate, index) in campaign.rewardRates" :key="index" v-html="highlightText(rate)"
-                    class="text-success d-block fw-bold"></span>
-                </p>
-                <p v-for="detail in campaign.details" :key="detail" v-html="highlightText(detail)"></p> -->
                 <p>
                   <a v-for="(link, index) in campaign.link" :key="index" :href="link" target="_blank"
                     class="btn btn-sm btn-outline-secondary mt-2 me-2">
@@ -50,10 +45,10 @@
     </div>
     <footer class="footer text-center mt-5 bg-light">
       <p class="fs-3 fw-bold">謹慎理財 信用至上</p>
-      <p>最後更新 2025年4月14日 © 2025 Tingli 保留所有權利</p>
+      <p>最後更新 2025年8月7日 © 2025 Tingli</p>
       <p>
         <a href="https://line.me/ti/p/wS8xxwAxjG" class="text-decoration-none text-body">線上客服</a>｜
-        <span href="/privacy-policy">服務專線 0973-033525（付費電話）</span>
+        <span href="/privacy-policy">服務專線 0973-033525</span>
       </p>
     </footer>
   </div>

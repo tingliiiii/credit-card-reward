@@ -1,40 +1,16 @@
 [
     {
-        "campaignName": "日本賞",
-        "rewardRates": [
-            "3.5%～10%"
-        ],
-        "period": "2025/02/24～2025/04/30",
-        "card": "國泰 CUBE 卡",
-        "details": [
-            "日本實體商店消費 3.5%",
-            "Apple錢包指定交通卡（SUICA/PASMO/ICOCA） 5%",
-            "東京迪士尼、大阪環球影城 5%",
-            "國泰航空、台灣虎航、東南旅遊、可樂旅遊、Klook 3.5%",
-            "Expedia專屬網頁、Rakuten樂天旅遊訂房 5%",
-            "王品瘋Pay日系品牌（陶板屋 | 藝奇 | Oh my!原燒 | 聚日式鍋物 | 品田牧場 | 肉次方 | 阪前和牛鐵板燒） 10%",
-            "台灣壽司郎、ABC Cooking Studio、明壽司、彧割烹、承、HAILI、鳥苑、鮨戎、nid. 5%",
-            "inline 專屬饗宴、FunNow 5%",
-            "DON DON DONKI唐吉訶德、MUJI無印良品官網購物 5%",
-            "MOS摩斯漢堡 3.5%",
-            "新光三越（含skm online/skm pay交易）、台灣樂天市場 3%"
-        ],
-        "link": [
-            "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
-        ]
-    },
-    {
         "campaignName": "玩數位",
         "rewardRates": [
             "3%"
         ],
-        "period": "2025/1/1～2025/6/30",
+        "period": "2025/7/1~2025/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
-            "Apple 媒體服務、Google Play、Disney+、Netflix、Spotify、KKBOX、YouTube Premium、Max",
-            "蝦皮、momo購物網、PChome 24h購物（不含儲值及電子票券）、小樹購",
-            "Coupang 酷澎（台灣）、淘寶/天貓",
-            "ChatGPT、Dropbox、Surfshark、NordVPN、McAfee、Microsoft、LinkedIn、Whoscall、Zoom"
+            "AI工具：ChatGPT、Canva、Claude、Cursor、Duolingo、Gamma、Gemini、Notion、Perplexity、Speak",
+            "數位/串流平台：Apple 媒體服務、Google Play、Disney+、Netflix、Spotify、KKBOX、YouTube Premium、Max",
+            "網購平台：蝦皮購物、momo購物網、PChome 24h購物（不含儲值及電子票券）、小樹購",
+            "國際電商：Coupang 酷澎（台灣）、淘寶/天貓"
         ],
         "link": [
             "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
@@ -45,14 +21,14 @@
         "rewardRates": [
             "3%"
         ],
-        "period": "2025/1/1～2025/06/30",
+        "period": "2025/7/1~2025/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
-            "遠東SOGO百貨、遠東Garden City、太平洋百貨、新光三越、SKM Park、BELLAVITA、微風廣場、遠東百貨、Big City遠東巨城購物中心、誠品生活、環球購物中心、CITYLINK、統一時代、台北101、ATT 4 FUN、明曜百貨、京站、美麗華、大葉高島屋、比漾廣場、大江國際購物中心、中友百貨、廣三SOGO、Tiger City、勤美誠品綠園道、大魯閣新時代、耐斯廣場、南紡購物中心、夢時代、漢神百貨、漢神巨蛋、MITSUI OUTLET PARK（林口、台中港、台南）、Mitsui Shopping Park LaLaport（南港、台中）、義大世界購物廣場、華泰名品城、義享天地、麗寶OUTLET Mall、秀泰生活、台茂購物中心、新月廣場、三創生活、宏匯廣場、NOKE忠泰樂生活",
-            "Uber Eats、foodpanda",
+            "國內指定百貨：遠東SOGO百貨、遠東Garden City、太平洋百貨、新光三越、SKM Park、BELLAVITA、微風廣場、遠東百貨、Big City遠東巨城購物中心、誠品生活、環球購物中心、CITYLINK、統一時代台北店(不含DREAM PLAZA)、台北101、ATT 4 FUN、明曜百貨、京站、美麗華、大葉高島屋、比漾廣場、大江國際購物中心、中友百貨、廣三SOGO、Tiger City、勤美誠品綠園道、大魯閣新時代、耐斯廣場、南紡購物中心、夢時代、漢神百貨、漢神巨蛋、MITSUI OUTLET PARK（林口、台中港、台南）、Mitsui Shopping Park LaLaport（南港、台中）、義大世界購物廣場、華泰名品城、義享天地、麗寶OUTLET Mall、秀泰生活、台茂購物中心、新月廣場、三創生活、宏匯廣場、NOKE忠泰樂生活",
+            "國內外送平台：Uber Eats、foodpanda",
             "國內餐飲（不含餐券）、麥當勞",
             "活動回饋適用範圍涵蓋透過聯合信用卡中心小額支付平台收費之餐廳（請見連結），如：早餐店－拉亞漢堡 | 咖啡店－% Arabica咖啡、黑沃咖啡 | 連鎖速食店－SUBWAY | 手搖飲－50嵐、麻古茶坊 | 小型餐飲－六扇門時尚湯鍋、八方雲集",
-            "康是美、屈臣氏"
+            "國內藥妝：康是美、屈臣氏"
         ],
         "link": [
             "https://www.nccc.com.tw/wps/wcm/connect/zh/home/BusinessOperations/CardBusiness/MicroPayment",
@@ -64,7 +40,7 @@
         "rewardRates": [
             "3%"
         ],
-        "period": "2025/1/1～2025/06/30",
+        "period": "2025/7/1~2025/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
             "海外實體消費（含國外餐飲、飯店到店付款等）",
@@ -74,7 +50,7 @@
             "中華航空、長榮航空、星宇航空、台灣虎航、國泰航空、樂桃航空、阿聯酋航空、酷航、捷星航空、日本航空、ANA全日空、亞洲航空、聯合航空、新加坡航空、越捷航空、大韓航空、達美航空、土耳其航空、卡達航空、法國航空",
             "國內飯店住宿",
             "星野集團、全球迪士尼飯店、東橫INN",
-            "KKday、Agoda、Klook、Airbnb、Hotels.com、Expedia、Booking.com、Trip.com、AsiaYo",
+            "KKday、Agoda、Klook、Airbnb、Booking.com、Trip.com",
             "ezTravel易遊網、雄獅旅遊、可樂旅遊、東南旅遊、五福旅遊、燦星旅遊、山富旅遊、長汎假期、鳳凰旅行社、Ezfly易飛網、理想旅遊、永利旅行社、三賀旅行社"
         ],
         "link": [
@@ -86,12 +62,12 @@
         "rewardRates": [
             "3%"
         ],
-        "period": "2025/1/1～2025/06/30",
+        "period": "2025/7/1~2025/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
-            "家樂福、LOPIA台灣、全聯福利中心",
+            "家樂福、LOPIA台灣、全聯福利中心（不含大全聯）",
             "台灣中油直營站",
-            "7-ELEVEN實體門市、全家便利商店",
+            "7-ELEVEN（7-11）實體門市、全家便利商店",
             "IKEA宜家家居"
         ],
         "link": [
@@ -103,10 +79,11 @@
         "rewardRates": [
             "2%"
         ],
-        "period": "2025/1/1～2025/06/30",
+        "period": "2025/7/1~2025/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
-            "持CUBE卡綁定三大國際行動支付（Apple Pay/Google Pay/Samsung Pay擇一），即可切換至「來支付」權益方案，享CUBE卡綁定LINE Pay消費2%小樹點（信用卡），適用通路依LINE Pay公告為準"
+            "「來支付」權益切換條件：當日完成CUBE卡綁定三大國際行動支付(Apple Pay/Google Pay/Samsung Pay擇一)，次日上午08:00後方可切換至「來支付」權益",
+            "2%小樹點(信用卡)回饋：切換至「來支付」權益，使用CUBE卡綁定LINE Pay消費享2%小樹點(信用卡)回饋，適用通路依LINE Pay公告為準"
         ],
         "link": [
             "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
@@ -310,87 +287,6 @@
         ]
     },
     {
-        "campaignName": "月月領券",
-        "rewardRates": [
-            "6%～10%"
-        ],
-        "period": "2025/3/1~2025/5/31",
-        "card": "台新@GoGo卡",
-        "details": [
-            "新光三越skm pay綁定@GoGo卡消費最高享10%（上限2000點）",
-            "「全聯福利中心、全家便利商店、7-ELEVEN」實體門市消費最高享6% （2025/4/1起開放「全聯儲值、兩大超商繳稅費交易（例: 繳牌照稅、水電費等）」適用6%加碼回饋）（上限2000點）",
-            "Uber Eats、foodpanda消費最高享6%（上限200點）",
-            "蝦皮、momo、PChome、酷澎、Yahoo、Amazon、東森、博客來、Richart Mart 加碼3%（上限500點）",
-            "中油直營加油消費最高享6%（上限200點）"
-        ],
-        "link": [
-            "https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/future/dfbf6db8-ab97-11ee-be9b-0050568c09e3"
-        ]
-    },
-    {
-        "campaignName": "天天刷",
-        "rewardRates": [
-            "3.3%（每期帳單上限10,000點）"
-        ],
-        "period": "2025/1/2～2025/6/30",
-        "card": "台新太陽玫瑰卡",
-        "details": [
-            "超商量販：7-11 及全家（限使用台新Pay綁定支付）、家樂福",
-            "通勤交通：高鐵、台鐵、台灣大車隊、Yoxi、Uber",
-            "停車租車：嘟嘟房、Autopass（車麻吉）、城市車旅、ViViPark、iRent、和運租車、格上租車"
-        ],
-        "link": [
-            "https://mkp.taishinbank.com.tw/s/2025/TSRoseApolloCard2503/index.html"
-        ]
-    },
-    {
-        "campaignName": "好響刷",
-        "rewardRates": [
-            "3.3%（每期帳單上限10,000點）"
-        ],
-        "period": "2025/1/2～2025/6/30",
-        "card": "台新太陽玫瑰卡",
-        "details": [
-            "全台餐飲（不含餐券）",
-            "外送平台：Uber Eats、Foodpanda",
-            "展演購票：拓元售票、KKTIX、年代售票、寬宏售票、OPENTIX兩廳院文化生活",
-            "加油充電：中油直營、台亞直營、全國加油、源點 EVOASIS、華城電能 EVALUE",
-            "指定樂園：義大遊樂世界、麗寶樂園、六福村主題遊樂園、劍湖山世界主題遊樂園、九族文化村、X-Park、國立海洋生物博物館、遠雄海洋公園、大魯閣、小人國主題樂園",
-            "指定飯店：晶華集團、煙波飯店、老爺酒店集團、福華集團、台灣萬豪國際集團旗下飯店、漢來飯店事業群、台北君悅、高雄洲際酒店、礁溪寒沐"
-        ],
-        "link": [
-            "https://mkp.taishinbank.com.tw/s/2025/TSRoseApolloCard2503/index.html"
-        ]
-    },
-    {
-        "campaignName": "大筆刷",
-        "rewardRates": [
-            "3.3%（每期帳單上限10,000點）"
-        ],
-        "period": "2025/1/2～2025/6/30",
-        "card": "台新太陽玫瑰卡",
-        "details": [
-            "指定百貨：新光三越、遠東 SOGO、廣三SOGO、遠東百貨、微風、台北101、遠東巨城、南紡購物中心、漢神百貨、漢神巨蛋、誠品生活",
-            "指定Outlet：MITSUI OUTLET PARK（林口、台中港、台南）、Mitsui Shopping Park LaLaport（南港、台中，2025/4/1起）、華泰名品城、SKM Park Outlets",
-            "訂房旅行：雄獅旅遊、易遊網、Agoda、Booking.com"
-        ],
-        "link": [
-            "https://mkp.taishinbank.com.tw/s/2025/TSRoseApolloCard2503/index.html"
-        ]
-    },
-    {
-        "campaignName": "海外刷",
-        "rewardRates": [
-            "3.3%（每期帳單上限10,000點）"
-        ],
-        "period": "2025/1/2～2025/6/30",
-        "card": "台新太陽玫瑰卡",
-        "details": [
-            "日本、韓國、美國、英國、愛爾蘭、法國、摩納哥、德國、荷蘭、比利時、盧森堡、瑞士、列支敦士登、芬蘭、挪威、瑞典、冰島、丹麥、奧地利、匈牙利、捷克、斯洛伐克、斯洛維尼亞、西班牙、葡萄牙、義大利、克羅埃西亞、希臘、賽普勒斯、馬爾他、保加利亞、羅馬尼亞、塞爾維亞、波蘭、白俄羅斯、烏克蘭、立陶宛、拉脫維亞、愛沙尼亞"
-        ],
-        "link": ["https://mkp.taishinbank.com.tw/s/2025/TSRoseApolloCard2503/index.html"]
-    },
-    {
         "campaignName": "精選航旅",
         "rewardRates": [
             "一般消費 0.3%（無上限）",
@@ -415,6 +311,129 @@
             "海外消費：指交易幣別為外幣，或交易國別非台灣"
         ],
         "link": ["https://www.taishinbank.com.tw/TSB/personal/credit/intro/overview/future/89cd913a-8172-11ef-b432-0050568c09e3"]
+    },    
+    {
+        "campaignName": "數趣刷",
+        "rewardRates": [
+            "3.3%（無上限）"
+        ],
+        "period": "2025/9/1 - 2025/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "網購平台：蝦皮｜momo｜酷澎(Coupang)｜PChome｜Yahoo｜Amazon｜東森｜博客來｜Richart Mart",
+            "線上課程：Hahow｜PressPlay｜Amazing Talker｜Udemy｜Kobo｜Readmoo",
+            "時尚品味：UNIQLO｜GU｜ZARA｜NET｜lativ｜GAP"
+        ],
+        "link": ["https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20250702104010396/index.html"]
+    },    
+    {
+        "campaignName": "玩旅刷",
+        "rewardRates": [
+            "3.3%（無上限）"
+        ],
+        "period": "2025/9/1 - 2025/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "海外消費（含線上及實體）",
+            "航空公司：華航｜長榮｜星宇｜虎航｜國泰航空｜華信｜立榮",
+            "訂房旅行：Klook｜Agoda｜Booking.com｜Trip.com｜Airbnb｜Hotels.com｜Expedia｜雄獅旅遊｜易遊網｜東南旅遊"
+        ],
+        "link": ["https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20250702104010396/index.html"]
+    },
+    {
+        "campaignName": "天天刷",
+        "rewardRates": [
+            "3.3%（無上限）"
+        ],
+        "period": "2025/9/1 - 2025/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "超商量販：7-11及全家(限使用台新Pay綁定支付)｜家樂福｜大買家",
+            "通勤交通：台鐵｜高鐵｜台灣大車隊｜Yoxi｜Uber",
+            "停車租車：嘟嘟房｜Autopass(車麻吉)｜城市車旅｜ViViPark｜USPACE｜UDRIVE｜iRent｜和運租車｜格上租車"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20250702104010396/index.html"
+        ]
+    },
+    {
+        "campaignName": "大筆刷",
+        "rewardRates": [
+            "3.3%（無上限）"
+        ],
+        "period": "2025/9/1 - 2025/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "指定百貨：新光三越｜遠東SOGO｜廣三SOGO遠東百貨｜微風｜台北101｜遠東巨城南紡購物中心｜漢神百貨｜漢神巨蛋｜誠品生活",
+            "指定Outlet：MITSUI OUTLET PARK (林口、台中港、台南)｜Mitsui Shopping Park LaLaport(南港、台中)｜華泰名品城｜SKM Park Outlets",
+            "居家裝修：IKEA｜特力屋｜HOLA｜宜得利｜瑪黑家居"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20250702104010396/index.html"
+        ]
+    },
+    {
+        "campaignName": "好饗刷",
+        "rewardRates": [
+            "3.3%（無上限）"
+        ],
+        "period": "2025/9/1 - 2025/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "全臺餐飲（不含餐券）",
+            "展演購票：拓元售票｜KKTIX｜年代售票｜寬宏售票｜OPENTIX兩廳院文化生活",
+            "指定樂園 義大遊樂世界｜麗寶樂園｜六福村主題遊樂園｜九族文化村｜劍湖山世界主題遊樂園｜X-Park｜國立海洋生物博物館｜遠雄海洋公園大魯閣｜小人國主題樂園",
+            "外送平台：Uber Eats｜Foodpanda",
+            "指定飯店（不含餐券、住宿券等票券，適用加碼飯店詳注意事項）：晶華國際酒店集團｜台灣萬豪國際集團旗下飯店｜煙波飯店｜老爺酒店集團｜福華集團｜漢來飯店事業群｜台北君悅酒店｜高雄洲際酒店｜礁溪寒沐",
+            "加油充電：中油直營｜台亞直營｜全國加油｜源點EVOASIS｜華城電能EVALUE"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20250702104010396/index.html"
+        ]
+    },
+    {
+        "campaignName": "假日刷",
+        "rewardRates": [
+            "2%（無上限）"
+        ],
+        "period": "2025/9/1 - 2025/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "國內節假日不限通路消費享 2% (含LINE Pay及街口支付)"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20250702104010396/index.html"
+        ]
+    },
+    {
+        "campaignName": "Pay著刷",
+        "rewardRates": [
+            "3.8%（無上限）"
+        ],
+        "period": "2025/9/1 - 2025/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "綁定台新Pay享11萬家通路3.8%：如新光三越、四大超商、IKEA、路易莎咖啡、台灣大車隊等，詳見台新Pay官網"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/s/2022/taishinpay/cooperation-scan_pay.html",
+            "https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20250702104010396/index.html"
+        ]
+    },
+    {
+        "campaignName": "保費免切換",
+        "rewardRates": [
+            "1.3%（無上限）"
+        ],
+        "period": "2025/9/1 - 2025/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "刷適用「切換刷平台方案」之卡別繳保費，一次付清享1.3%台新Point(信用卡)回饋",
+            "免登錄，以上回饋皆不含國外保險交易、躉繳保費、投資型保費、彈性繳保費、單筆消費分期0利率之交易"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/TsCms/marketing/expose/WM_20250702104010396/index.html"
+        ]
     }
     
 ]
