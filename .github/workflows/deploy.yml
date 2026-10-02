@@ -17,6 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 需要完整歷史，vite.config.ts 才能從 git log 取得 campaigns.json 的更新日期
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -24,6 +27,8 @@ jobs:
           cache: npm
 
       - run: npm ci
+      - run: npm run lint
+      - run: npm test
       - run: npm run build
 
       # 與原本 `npm run deploy`（gh-pages 套件）相同，推送到 gh-pages 分支
