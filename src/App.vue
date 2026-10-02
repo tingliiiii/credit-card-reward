@@ -45,7 +45,7 @@
     </div>
     <footer class="footer text-center mt-5 bg-light">
       <p class="fs-3 fw-bold">謹慎理財 信用至上</p>
-      <p>最後更新 2026年2月21日 © 2025 Tingli</p>
+      <p>最後更新 2026年10月3日 © 2025 Tingli</p>
       <p>
         <a href="https://line.me/ti/p/wS8xxwAxjG" class="text-decoration-none text-body">線上客服</a>｜
         <span href="/privacy-policy">服務專線 0973-033525</span>

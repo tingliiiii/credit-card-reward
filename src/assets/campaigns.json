@@ -1,16 +1,81 @@
 [
     {
-        "campaignName": "玩數位",
+        "campaignName": "秋日遊",
         "rewardRates": [
-            "3%"
+            "3%~8%"
         ],
-        "period": "2025/7/1~2025/12/31",
+        "period": "2026/10/1~2026/11/30",
         "card": "國泰 CUBE 卡",
         "details": [
-            "AI工具：ChatGPT、Canva、Claude、Cursor、Duolingo、Gamma、Gemini、Notion、Perplexity、Speak",
-            "數位/串流平台：Apple 媒體服務、Google Play、Disney+、Netflix、Spotify、KKBOX、YouTube Premium、Max",
-            "網購平台：蝦皮購物、momo購物網、PChome 24h購物（不含儲值及電子票券）、小樹購",
-            "國際電商：Coupang 酷澎（台灣）、淘寶/天貓"
+            "日本實體消費：愛電王實體門市、大丸百貨福岡天神店、MITSUI OUTLET PARK實體商場、台場DiverCity Tokyo Plaza、BicCamera集團實體門市",
+            "日本交通：Apple錢包指定交通卡(Suica、PASMO、ICOCA)、GO Taxi App(預約叫車平台)",
+            "日本四大機場指定免稅店：成田機場指定免稅店 (Fa-So-La DUTY FREE、JAPAN DUTY FREE、JAL DUTYFREE)、關西機場指定免稅店 (KIX DUTY FREE、TRK ARRIVAL Duty Free Shop、關西旅日記)、新千歲機場指定免稅店(New Chitose Airport Duty Free Shop)、福岡機場免稅店 (FUKUOKA AIRPORT DUTYFREE SHOP)",
+            "日本IP專賣店：寶可夢中心 5家指定門市、SANRIO 三麗鷗 14家指定門市、KIDDY LAND 6家指定門市",
+            "日本人氣愛店：UNIQLO實體門市、Alpen GROUP實體門市、ABC-MART實體門市、Loft實體門市、3COINS 15家指定門市",
+            "日本餐廳預約平台：Tabelog、TableCheck、OMAKASE",
+            "海外旅遊規劃 (機票/訂房/行程)：Klook 指定日本商品、Hotels.com 專屬網頁訂房、Expedia 專屬網頁訂房、國泰航空、台灣虎航、ezTravel易遊網、可樂旅遊、東南旅遊",
+            "國內日系質感飯店：JR東日本大飯店 台北、礁溪寒沐酒店(住宿)、索拉利亞西鐵飯店台北西門、台北大倉久和大飯店、日勝生加賀屋國際溫泉飯店",
+            "國內日系購物名店：HANDS 台隆手創館 南港Lalaport店、明曜百貨、台灣DON DON DONKI 唐吉訶德、Xpark水生公園、UNITED ARROWS LTD.官方購物網站、遠東SOGO (含Garden City大巨蛋)、日藥本舖指定門市、UNIQLO網路商店/直營店、GU台灣網路商店、MITSUI OUTLET PARK(林口、台中港、台南)、Mitsui Shopping Park LaLaport(南港、台中)",
+            "國內日系美食饗宴：橘色涮涮屋 (一館|二館|台中館)、Extension 1 by橘色、雞湯桑指定門市、朝炭 (含官網訂位)、初魚鮨 (限官網訂位與指定門市)、初魚 鉄板料亭 (限官網訂位與指定門市)、作 天麩羅．割烹 (限官網訂位)、濟安鮨日本料理、侍燒肉、梵燒肉、元一天婦羅、鳥苑、燒鳥すみか、山崎、成蔵、爭鮮迴轉壽司、爭鮮PLUS、錢都日式涮涮鍋、客美多咖啡、すき家 SUKIYA、必勝客、摩斯漢堡(APP+實體店)、台灣壽司郎",
+            "特約商店分期付款消費僅適用原一般消費0.3%回饋",
+            "限直接使用CUBE信用卡刷卡或加入Apple Pay/Samsung Pay/Google Pay/Garmin Pay消費，不含第三方支付平台（如LINE Pay、街口支付等）",
+            "日本實體消費限實體過卡或感應式刷卡面對面交易，且商店請款國別需為日本或幣別為日圓"
+        ],
+        "link": [
+            "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
+        ]
+    },
+    {
+        "campaignName": "台塑家",
+        "rewardRates": [
+            "2%"
+        ],
+        "period": "2026/6/1~2026/12/31",
+        "card": "國泰 CUBE 卡",
+        "details": [
+            "加油站：台塑石油加油站、台亞加油站、福懋加油站、統一速邁樂(限本島)加油站",
+            "健康生活：台塑生醫實體門市、長庚生技實體門市、台塑蔬菜實體門市、台塑購物網",
+            "指定超商：7-ELEVEN (7-11) 實體門市、全家便利商店 實體門市、萊爾富實體門市",
+            "特約商店分期付款消費僅適用原一般消費0.3%回饋",
+            "排除第三方支付/電子支付綁卡付款（如icash Pay、街口支付、LINE Pay等）",
+            "超商排除菸酒、代收代售、儲值消費等項目，且不含非實體門市、服務區及商場門市"
+        ],
+        "link": [
+            "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
+        ]
+    },
+    {
+        "campaignName": "全支付",
+        "rewardRates": [
+            "2%"
+        ],
+        "period": "2026/4/22~2026/12/31",
+        "card": "國泰 CUBE 卡",
+        "details": [
+            "量販超市：全聯福利中心（含全電商、小時達、分批取）、大全聯（含全電商、小時達、分批取）",
+            "全支付國內通路：全支付國內特約商店、全支付國內合作通路",
+            "限以全支付綁定CUBE信用卡刷卡消費方可享指定回饋",
+            "特約商店分期付款消費僅適用原一般消費0.3%回饋",
+            "排除全支付刷卡繳稅、繳費、跨境支付、儲值、乘車碼、公益捐款、菸酒、代收代售、嬰兒奶粉、禮券等項目"
+        ],
+        "link": [
+            "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
+        ]
+    },
+    {
+        "campaignName": "玩數位",
+        "rewardRates": [
+            "3%（分期付款僅適用0.3%）"
+        ],
+        "period": "2026/1/1~2026/12/31",
+        "card": "國泰 CUBE 卡",
+        "details": [
+            "數位/串流平台：Apple 媒體服務",
+            "網購平台：蝦皮購物、momo購物網、PChome 24h購物(不含儲值及電子票券)、小樹購(不含電子票券)",
+            "國際電商：Coupang 酷澎(台灣)、淘寶/天貓",
+            "特約商店分期付款消費僅適用原一般消費0.3%回饋",
+            "排除透過LINE Pay、街口支付等第三方支付交易",
+            "網購平台排除黃金白銀等貴金屬、珠寶、遊戲點數、實體或電子票券、儲值之訂單"
         ],
         "link": [
             "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
@@ -19,39 +84,39 @@
     {
         "campaignName": "樂饗購",
         "rewardRates": [
-            "3%"
+            "3%（分期付款僅適用0.3%）"
         ],
-        "period": "2025/7/1~2025/12/31",
+        "period": "2026/1/1~2026/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
-            "國內指定百貨：遠東SOGO百貨、遠東Garden City、太平洋百貨、新光三越、SKM Park、BELLAVITA、微風廣場、遠東百貨、Big City遠東巨城購物中心、誠品生活、環球購物中心、CITYLINK、統一時代台北店(不含DREAM PLAZA)、台北101、ATT 4 FUN、明曜百貨、京站、美麗華、大葉高島屋、比漾廣場、大江國際購物中心、中友百貨、廣三SOGO、Tiger City、勤美誠品綠園道、大魯閣新時代、耐斯廣場、南紡購物中心、夢時代、漢神百貨、漢神巨蛋、MITSUI OUTLET PARK（林口、台中港、台南）、Mitsui Shopping Park LaLaport（南港、台中）、義大世界購物廣場、華泰名品城、義享天地、麗寶OUTLET Mall、秀泰生活、台茂購物中心、新月廣場、三創生活、宏匯廣場、NOKE忠泰樂生活",
-            "國內外送平台：Uber Eats、foodpanda",
-            "國內餐飲（不含餐券）、麥當勞",
-            "活動回饋適用範圍涵蓋透過聯合信用卡中心小額支付平台收費之餐廳（請見連結），如：早餐店－拉亞漢堡 | 咖啡店－% Arabica咖啡、黑沃咖啡 | 連鎖速食店－SUBWAY | 手搖飲－50嵐、麻古茶坊 | 小型餐飲－六扇門時尚湯鍋、八方雲集",
-            "國內藥妝：康是美、屈臣氏"
+            "國內指定百貨：遠東SOGO百貨、遠東Garden City、新光三越(不含台北車站商場)、遠東百貨、台北101、微風廣場(含微風南京、微風松高、微風信義、微風南山)、統一時代台北店(不含DREAM PLAZA)、誠品生活(不含誠品線上購物、勤美誠品綠園道)、京站、美麗華、NOKE忠泰樂生活、大葉高島屋、宏匯廣場、台茂購物中心、大江國際購物中心、Big City遠東巨城購物中心、中友百貨、廣三SOGO、南紡購物中心、耐斯廣場、夢時代、漢神百貨(不含漢神洲際購物廣場)、漢神巨蛋、新月廣場、秀泰生活、環球購物中心、太平洋百貨、華泰名品城",
+            "國內外送平台：Uber Eats(不含Uber One會員費用)",
+            "國內餐飲：國內餐飲(不含餐券)、連鎖速食－麥當勞",
+            "國內藥妝：康是美、屈臣氏",
+            "限直接使用CUBE卡刷卡或加入Apple Pay/Samsung Pay/Google Pay/Garmin Pay消費，不含第三方支付（如LINE Pay、街口支付等）",
+            "國內百貨回饋不包含店中櫃及附設之電影院；國內餐飲不包含商場/量販店內設立之餐廳及餐券購買"
         ],
         "link": [
-            "https://www.nccc.com.tw/wps/wcm/connect/zh/home/BusinessOperations/CardBusiness/MicroPayment",
             "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
         ]
     },
     {
         "campaignName": "趣旅行",
         "rewardRates": [
-            "3%"
+            "3%（分期付款僅適用0.3%）"
         ],
-        "period": "2025/7/1~2025/12/31",
+        "period": "2026/1/1~2026/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
-            "海外實體消費（含國外餐飲、飯店到店付款等）",
-            "東京迪士尼樂園、東京華納兄弟哈利波特影城、大阪環球影城（USJ）",
-            "Apple錢包指定交通卡（SUICA、PASMO、ICOCA）、Uber、Grab",
-            "台灣高鐵、yoxi、台灣大車隊、iRent、和運租車、格上租車",
-            "中華航空、長榮航空、星宇航空、台灣虎航、國泰航空、樂桃航空、阿聯酋航空、酷航、捷星航空、日本航空、ANA全日空、亞洲航空、聯合航空、新加坡航空、越捷航空、大韓航空、達美航空、土耳其航空、卡達航空、法國航空",
-            "國內飯店住宿",
-            "星野集團、全球迪士尼飯店、東橫INN",
-            "KKday、Agoda、Klook、Airbnb、Booking.com、Trip.com",
-            "ezTravel易遊網、雄獅旅遊、可樂旅遊、東南旅遊、五福旅遊、燦星旅遊、山富旅遊、長汎假期、鳳凰旅行社、Ezfly易飛網、理想旅遊、永利旅行社、三賀旅行社"
+            "指定海外消費：海外實體消費(含國外餐飲、飯店到店付款等)",
+            "日本指定遊樂園：東京迪士尼樂園、東京華納兄弟哈利波特影城、大阪環球影城(USJ)",
+            "指定國內外交通：Apple錢包指定交通卡 (SUICA 、PASMO、ICOCA)、Uber、Grab、台灣高鐵、台灣大車隊、和運租車、格上租車",
+            "指定航空公司：中華航空(不含華信航空)、長榮航空(不含立榮航空)、星宇航空、樂桃航空、阿聯酋航空、酷航、捷星航空、日本航空、ANA全日空、亞洲航空、聯合航空、新加坡航空、越捷航空、大韓航空(不含韓亞航空)、達美航空、土耳其航空、卡達航空、法國航空",
+            "指定飯店住宿：國內飯店住宿、星野集團(限訂房)、全球迪士尼飯店(限訂房)、東橫INN",
+            "指定旅遊/訂房平台：Klook、Airbnb(限訂房)、Booking.com",
+            "指定旅行社：雄獅旅遊、五福旅遊、燦星旅遊、山富旅遊、長汎假期、鳳凰旅行社、Ezfly易飛網、理想旅遊、永利旅行社、三賀旅行社",
+            "限直接使用CUBE卡刷卡或加入Apple Pay/Samsung Pay/Google Pay/Garmin Pay消費，不含第三方支付工具",
+            "航空公司限臨櫃、官網或APP購票，不含機上免稅品、貴賓室、哩程數、套裝行程等非機票消費"
         ],
         "link": [
             "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
@@ -60,274 +125,704 @@
     {
         "campaignName": "集精選",
         "rewardRates": [
-            "2%"
+            "2%（分期付款僅適用0.3%）"
         ],
-        "period": "2025/7/1~2025/12/31",
+        "period": "2026/1/1~2026/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
-            "家樂福、LOPIA台灣、全聯福利中心（不含大全聯）",
-            "台灣中油直營站",
-            "7-ELEVEN（7-11）實體門市、全家便利商店",
-            "IKEA宜家家居"
+            "充電站：充電站",
+            "停車費：車麻吉(不含加油、充電)、uTagGo(不含月租停車)",
+            "量販超市：萬家福(樂家康)、LOPIA台灣、全聯福利中心 實體門市(不含大全聯)",
+            "指定加油：台灣中油-直營站",
+            "指定超商：7-ELEVEN實體門市、全家便利商店實體門市",
+            "生活家居：IKEA宜家家居",
+            "超商與全聯排除菸酒、代收代售、儲值與第三方支付/電子支付綁卡付款（如icash Pay、全盈支付、全支付等）",
+            "中油直營站排除中油Pay、街口支付、LINE Pay等第三方支付與錢包儲值"
         ],
         "link": [
             "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
         ]
     },
     {
-        "campaignName": "來支付",
+        "campaignName": "固定回饋",
         "rewardRates": [
-            "2%"
+            "1.2% / 2.5%（分期付款僅適用0.3%）"
         ],
-        "period": "2025/7/1~2025/12/31",
+        "period": "2026/8/3~2026/12/31",
         "card": "國泰 CUBE 卡",
         "details": [
-            "「來支付」權益切換條件：當日完成CUBE卡綁定三大國際行動支付(Apple Pay/Google Pay/Samsung Pay擇一)，次日上午08:00後方可切換至「來支付」權益",
-            "2%小樹點(信用卡)回饋：切換至「來支付」權益，使用CUBE卡綁定LINE Pay消費享2%小樹點(信用卡)回饋，適用通路依LINE Pay公告為準"
+            "一般消費 1.2%：一般消費 (不含保費)",
+            "指定海外消費 2.5%：海外實體消費",
+            "自變更日起至2026/12/31期間不得再切換至其他權益，適用期間內僅享有一次切換權益之權利",
+            "一般消費排除保費、便利超商、全聯福利中心、大全聯、小額支付平台等項目"
         ],
         "link": [
             "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
         ]
     },
     {
-        "campaignName": "百大特店 行動支付",
+        "campaignName": "慶生月",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "3.5% / 5% / 10%"
         ],
-        "period": "2025/10/1～2026/6/30",
-        "card": "玉山 Unicard",
+        "period": "2026/10/1~2026/12/31",
+        "card": "國泰 CUBE 卡",
         "details": [
-            "玉山Wallet電子支付、LINE Pay、全支付、街口支付、悠遊付、全盈+PAY、iPASS MONEY、icash Pay",
-            "綁定指定行動支付於超商、全聯、大全聯交易、全聯全電商平台付款、繳納各項稅費等非一般消費將不列入回饋計算",
-            "綁定玉山Unicard於LINE Pay交易，消費請款名稱須出現「連加」、「LINE PAY」、「LPEPI」或「連支」始符合回饋資格",
-            "玉山Wallet電子支付綁定信用卡付款僅限國內TWQR和台灣Pay通路消費列入回饋計算，不包含繳稅費、學費、各項費用代扣繳(如電費、水費等)、PayPay通路，與其他非一般消費之交易"
+            "口碑名店聚餐首選：大腕燒肉、茶六燒肉堂、老井極上燒肉、屋馬燒肉、鼎王麻辣鍋、無老鍋、老四川巴蜀麻辣燙、詹記麻辣火鍋",
+            "中西式佳餚、火鍋：青沐、所 SUO、嵩 sung、JAI 宅、新東南海鮮餐廳、龍都酒樓、吉品海鮮餐廳、老新台菜、輕井澤鍋物、湯棧",
+            "主廚演繹料理魅力：Hābu小餐館、空盤 KOMBOI、野驢小餐館、肉料理福",
+            "精選人氣餐廳及甜點咖啡：UNCLE SHAWN 燒肉餐酒館、UNCLE RAY串燒·牛飲·咖喱 台中店、蜀叔麻辣鍋 台北店、小方舟串燒酒場、毛丼丼飯專門店、毛房蔥柚鍋．冷藏肉專門、毛蔬亞洲蔬食、法國的秘密甜點(大安店/官網)、法朋烘焙甜點坊(門市/官網)、Miss V Bakery(門市/官網)、興波咖啡 華山旗艦店/南港展覽館店",
+            "日本指定樂園、遊戲及旅遊時光：東京迪士尼樂園、大阪環球影城(USJ)、PlayStation官方線上平台、Nintendo官方線上平台、巴哈姆特動畫瘋",
+            "歌聲暢快身心及都會享樂體驗：錢櫃KTV、好樂迪KTV、星聚點KTV、享溫馨KTV",
+            "購物盡興外送便利：新光三越 (不含SKM Park Outlets 高雄草衙)、Uber Eats(不含Uber One會員費用)",
+            "限正卡人生日當月獨享切換",
+            "特約商店分期付款消費僅適用原一般消費0.3%回饋",
+            "不含透過inline、訂票或線上訂位平台消費；不含綁定第三方支付工具之消費"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
         ]
     },
     {
-        "campaignName": "百大特店 交通加油",
+        "campaignName": "童樂匯",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "1% / 5% / 10%"
         ],
-        "period": "2025/10/1～2026/6/30",
-        "card": "玉山 Unicard",
+        "period": "2026/7/1~2026/12/31",
+        "card": "國泰 CUBE 卡",
         "details": [
-            "台灣中油(直營店)、55688(台灣大車隊、機場接送)、台鐵、高鐵、Uber、Yoxi",
-            "中油加油站限台灣中油網站公告之直營站(含綁定中油Pay支付)",
-            "台鐵/高鐵（限於官網訂票系統、官方APP、全線各站售票窗口臨櫃購票（含定期票）、自動售票機購票）",
-            "UBER（限國內搭乘且交易幣別為新臺幣）"
+            "保費：國內各大壽險公司保費、國內各大產險公司保費",
+            "指定私校學費：台北美國學校、台北歐洲學校、台北市私立道明外僑學校、馬禮遜學校、康乃薾美國學校、台北私立立人國際國小、康橋國際學校、華盛頓小學、復興實驗高中、維多利亞雙語中小學、高雄美國學校",
+            "親子餐廳：雞湯大叔、陶板屋(限使用王品瘋Pay結帳)、YAYOI彌生軒(限街邊店)、大戶屋、大樹先生的家、Money Jump 媽妳講親子餐廳、小島3.5度親子餐廳",
+            "親子育樂：Klook、東京迪士尼樂園、麗寶樂園、六福村主題樂園、九族文化村、劍湖山世界主題樂園、義大遊樂世界、小叮噹科學園區主題樂園、Xpark水生公園(限館內人工結帳櫃台)、巧虎夢想樂園",
+            "親子飯店：台北喜來登大飯店、蘭城晶英酒店、台南晶英酒店、礁溪寒沐酒店、大溪笠復威斯汀度假酒店、煙波大飯店新竹湖濱館、麗寶福容大飯店、雲品溫泉酒店、和逸飯店(台南西門館、桃園館)、義大皇家酒店、高雄萬豪酒店、墾丁凱撒大飯店、花蓮遠雄悅來大飯店、瑞穗天合國際觀光酒店、六福莊、宜蘭礁溪鳳凰酒店、桃園名人堂花園大飯店",
+            "母嬰用品店：卡多摩嬰童館、媽咪愛、樂兒屋、寶齡婦幼館/ 步步樂BuBuLuv、安琪兒婦嬰百貨、宜兒樂、麗兒采家、Taobaby濤寶日記、俏媽咪、媽媽好",
+            "五感體驗課：雲門舞集舞蹈教室、紅葉蛋糕指定網站(仁愛總店官方直營網站)、Yamaha音樂教室、iSKI滑雪俱樂部、汐游寶寶/風城游汐谷",
+            "嬰幼童品牌官網：10mois台灣官網、Mamas&Papas台灣官網、古北町台灣官網、Little Wonders台灣官網、Seahorse Originals台灣官網",
+            "限符合客戶與未成年子女持有國泰世華帳戶等指定條件解鎖切換",
+            "特約商店分期付款消費僅適用一般消費0.3%回饋",
+            "限直接使用CUBE信用卡刷卡或加入Apple Pay/Samsung Pay/Google Pay/Garmin Pay消費，不含綁定其他型態支付工具（如LINE Pay、街口支付等）"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"
         ]
     },
     {
-        "campaignName": "百大特店 百貨",
+        "campaignName": "一般消費",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "1%（無上限）",
+            "0.3%（無上限）"
         ],
-        "period": "2025/10/1～2026/6/30",
+        "period": "2026/7/1~2026/12/31",
         "card": "玉山 Unicard",
         "details": [
-            "新光三越百貨、遠東百貨集團、漢神百貨(不含漢神巨蛋)、微風百貨、台北101、華泰名品城、三井OUTLET、京站、美麗華、誠品生活、誠品書店(不含百貨店)、誠品線上、秀泰生活、LaLaport、統領廣場、統一時代百貨台北店(含DREAM PLAZA)、昇恆昌、采盟",
-            "部分百貨之櫃位為獨立店(刷卡簽單列示名稱非該百貨)，將無法列入回饋計算",
-            "新光三越百貨包含：台北信義新天地、DIAMOND TOWERS、台北站前店、台北南西店、台北天母店、桃園站前店、台中中港店、嘉義垂楊店、台南中山店、台南新天地、高雄三多店、高雄左營店、台南小北門店、skm online以及skm pay",
-            "遠東百貨集團包含：遠百信義A13、遠百板橋、Mega City 板橋大遠百、遠百桃園、遠百竹北、新竹大遠百、新竹巨城購物中心、Top City 台中大遠百、遠百嘉義、台南大遠百 成功店、台南大遠百 公園店、高雄大遠百、遠百花蓮、SOGO台北忠孝館、SOGO台北復興館、SOGO台北敦化館、SOGO天母館、SOGO中壢館、SOGO新竹館、SOGO高雄館、遠東Garden City(大巨蛋)",
-            "微風百貨包含：微風廣場、微風南京、微風信義、微風松高、微風南山、微風台北車站"
+            "一般消費：國內外一般消費",
+            "同時申辦帳單e化及玉山銀行臺幣帳戶自動扣繳 card 費且成功扣繳享 1% 玉山e point 回饋；僅申辦帳單e化享 0.3% 回饋。",
+            "百大指定消費特店分期、歐盟實體交易、繳稅費、四大超商、全聯交易及綁定行動支付於非一般消費通路消費不列入回饋。"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
         ]
     },
     {
-        "campaignName": "百大特店 餐飲",
+        "campaignName": "百大指定消費-行動支付",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
         ],
-        "period": "2025/10/1～2026/6/30",
+        "period": "2026/7/1~2026/12/31",
         "card": "玉山 Unicard",
         "details": [
-            "Uber Eats、foodpanda、EZTABLE、王品瘋Pay、饗賓餐飲、瓦城料理、乾杯燒肉、漢來美食、鼎王餐飲、爭鮮餐飲",
-            "王品瘋Pay限使用APP功能之瘋Pay綁定玉山Unicard支付餐點適用",
-            "饗賓餐飲包含：官網購買餐券、饗A Joy、饗食天堂、果然匯、小福利、饗饗、旭集、開飯、饗泰多、真珠",
-            "瓦城料理包含：瓦城、非常泰、大心、1010、時時香、BOBO等獨立店",
-            "乾杯燒肉包含：乾杯燒肉居酒屋、老乾杯",
-            "漢來美食包含：漢來海港、島語、漢來蔬食、漢來名人坊、東方樓頂級粵菜、漢來上海湯包、溜溜酸菜魚專賣店、上菜片皮鴨專賣店、翠園粵菜餐廳、漢來軒、焰、PAVO餐‧酒館、精緻海鮮火鍋、日本料理弁慶、福園台菜海鮮餐廳、日日烘焙坊、糕餅小舖、台北漢來 大廳酒廊、Hi Lai Café等漢來品牌餐廳、台北/高雄漢來大飯店、花季渡假飯店",
-            "鼎王餐飲包含：鼎王麻辣鍋、麻一點、無老鍋",
-            "爭鮮餐飲包含：爭鮮迴轉壽司、爭鮮PLUS、定食8、爭鮮gogo、MAGiC TOUCH",
-            "餐飲消費類別之特店認定不包含百貨公司、飯店、酒店、旅館、賣場、商場、車站及美食街內設立之餐飲特店，若屬前述範圍，以致帳單名稱無法判別為該指定餐廳，將不列入回饋計算"
+            "行動支付：玉山Wallet電子支付、LINE Pay、全支付、街口支付、悠遊付、全盈+PAY、iPASS MONEY、icash Pay、支付寶",
+            "限使用指定行動支付綁定玉山Unicard刷卡交易。",
+            "綁定指定行動支付於超商、全聯、大全聯交易、全聯全電商平台付款、繳納各項稅費等非一般消費不列入回饋計算。",
+            "LINE Pay消費請款名稱須出現「連加」、「LINE PAY」、「LPEPI」或「連支」始符合回饋資格；透過LINE Pay繳納保險費不列入回饋。",
+            "玉山Wallet電子支付綁定信用卡付款僅限國內TWQR和台灣Pay通路消費，不含繳稅費、學費、各項代扣繳、PayPay通路及其他非一般消費。"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
         ]
     },
     {
-        "campaignName": "百大特店 旅遊航空",
+        "campaignName": "百大指定消費-電商平台",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
         ],
-        "period": "2025/10/1～2026/6/30",
+        "period": "2026/7/1~2026/12/31",
         "card": "玉山 Unicard",
         "details": [
-            "中華航空、長榮航空、日本航空、台灣虎航、樂桃航空、酷航",
-            "Trip.com、Booking.com、Hotels.com、AsiaYo、Expedia、KKday、Klook、雄獅旅遊、可樂旅遊、東南旅遊、Agoda",
-            "旅遊平台若選擇延後付款，則依實際消費日認列於該月份，若為到店付款將不列入回饋計算",
-            "Klook限國內消費且交易幣別為新臺幣"
+            "電商平台：momo購物網(含APP、電視購物、型錄及富昇旅行社)、蝦皮購物(不含跨境交易)、淘寶網(含手機淘寶、淘寶Lite)、Coupang酷澎(含台灣APP與台灣官網之火箭速配與火箭跨境)",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
         ]
     },
     {
-        "campaignName": "百大特店 精選",
+        "campaignName": "百大指定消費-國內百貨",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
         ],
-        "period": "2025/10/1～2026/6/30",
+        "period": "2026/7/1~2026/12/31",
         "card": "玉山 Unicard",
         "details": [
-            "Apple直營店（包含Apple 台北101、信義A13直營店、Apple Store 在線商城）",
-            "小米台灣（包含小米台灣官網（線上）、小米之家（實體通路）、小米專賣店（實體通路），不包含網購平台商城）",
-            "全國電子、燦坤、迪卡儂（包含官方網站之線上購物）"
+            "國內百貨：新光三越百貨(含SKM Park Outlets高雄草衙、skm online、skm pay)、遠東SOGO、遠東Garden City(大巨蛋)、遠東百貨、Big City遠東巨城購物中心、漢神百貨(不含漢神巨蛋)、台中漢神洲際購物廣場、微風百貨、台北101、華泰名品城、三井OUTLET、誠品生活(含誠品書店與誠品線上)、秀泰生活、LaLaport、統一時代百貨台北店/DREAM PLAZA、昇恆昌、Global Mall環球購物中心",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。",
+            "百貨櫃位若為獨立店致刷卡簽單名稱非該百貨無法列入回饋。"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3",
-            "https://www.apple.com/tw/store"
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
         ]
     },
     {
-        "campaignName": "百大特店 生活採買",
+        "campaignName": "百大指定消費-生活採買",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
         ],
-        "period": "2025/10/1～2026/6/30",
+        "period": "2026/7/1~2026/12/31",
         "card": "玉山 Unicard",
         "details": [
-            "家樂福、屈臣氏、康是美、特力屋、HOLA、hoi好好生活、UNIQLO、NET、大樹藥局、丁丁藥妝",
-            "僅適用國內特店，包含實體門市、官方網站、APP，但不包含其海外特店或分店之消費",
-            "UNIQLO及NET實體門市僅限街邊獨立店適用",
-            "若特店設立於百貨、商場等，以致帳單名稱無法判別為該指定特店，將不列入回饋計算，舉例：林口三井OUTLET館內的UNIQLO，其刷卡簽單上顯示之商店名稱為三井OUTLET，即不符合UNIQLO消費"
+            "生活採買：萬家福/樂家康、屈臣氏、康是美、特力屋、HOLA、hoi好好生活、UNIQLO、NET、杏一藥局、卡多摩",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。",
+            "僅適用國內特店，不包含海外特店或分店；UNIQLO及NET實體門市僅限街邊獨立店適用。",
+            "特店設立於百貨或商場致帳單名稱無法判別為該指定特店者不列入回饋。"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
         ]
     },
     {
-        "campaignName": "百大特店 電商",
+        "campaignName": "百大指定消費-餐飲美食",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
         ],
-        "period": "2025/10/1～2026/6/30",
+        "period": "2026/7/1~2026/12/31",
         "card": "玉山 Unicard",
         "details": [
-            "蝦皮：蝦皮購物（不含跨境交易） ",
-            "momo購物網：富邦momo購物網（含APP）、電視購物（電視、網路、型錄）及富昇旅行社（電視、網路、型錄）",
-            "淘寶網：包含手機淘寶、淘寶Lite",
-            "Coupang（酷澎）：包含Coupang APP（火箭速配+火箭跨境）、Coupang官網（火箭速配+火箭跨境）"
+            "餐飲美食：Uber Eats、foodpanda、王品瘋Pay",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。",
+            "王品瘋Pay限使用APP功能之瘋Pay綁定玉山Unicard支付餐點適用。"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
         ]
     },
     {
-        "campaignName": "百大特店 國外實體",
+        "campaignName": "百大指定消費-加油交通",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
         ],
-        "period": "2025/10/1～2026/6/30",
+        "period": "2026/7/1~2026/12/31",
         "card": "玉山 Unicard",
         "details": [
-            "日本、韓國、泰國、越南、新加坡、馬來西亞、菲律賓、中國、香港、澳門、美國、加拿大、英國、法國、德國、義大利、澳洲",
-            "交易地點需為指定國別之實體線下交易"
+            "加油交通：台灣中油(直營店)、台塑石油PAY、55688(台灣大車隊、機場接送)、台鐵、高鐵、Uber",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。",
+            "台灣中油加油站限官網公告之直營站(含綁定中油Pay支付)。",
+            "於台亞加油站、福懋加油站通路消費，將不再回饋玉山Unicard一般消費最高1%回饋。",
+            "臺鐵與高鐵限於官網訂票系統、官方APP、全線各站售票窗口臨櫃或自動售票機購票，不含高鐵假期、旅行社代購車票、超商付款票券、車內餐飲費用、閘門感應進站搭乘或電子票證自動加值，亦不適用各式聯票。",
+            "Uber限國內搭乘且交易幣別為新臺幣。"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
         ]
     },
     {
-        "campaignName": "百大特店 ESG消費",
+        "campaignName": "百大指定消費-航空旅遊",
         "rewardRates": [
-            "一般消費 1%（無上限）",
-            "簡單選 +2%（上限 1000 點）",
-            "UP 選 +3.5%（上限 5000 點）"
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
         ],
-        "period": "2025/10/1～2026/6/30",
+        "period": "2026/7/1~2026/12/31",
         "card": "玉山 Unicard",
         "details": [
-            "玉山Wallet愛心捐款-單筆捐款、玉山Wallet愛心捐款-定期定額、特斯拉、Gogoro電池資費、YouBike 2.0",
-            "愛心捐款包含弘道、華山、伊甸、喜憨兒、保護動物協會、勵馨、天主教中華聖母、羅慧夫顱顏、雷特氏症、陽光、微客、失親兒、失智者、雙連視障、同伴動物、懷生相信動物等基金會",
-            "公益捐款部分限透過玉山Wallet愛心捐款專區刷卡交易，路徑：玉山Wallet>生活>愛心捐款",
-            "YouBike2.0限定為YouBike 2.0 App或掃碼租借之玉山Unicard信用卡交易（不含悠遊卡功能租借）"
+            "航空旅遊：中華航空、長榮航空、日本航空、台灣虎航、樂桃航空、酷航、Trip.com、Booking.com、Hotels.com、Expedia、KKday、Klook、雄獅旅遊(含旅天下直營)、可樂旅遊、東南旅遊、Agoda、五福旅遊、加利利旅行社、找到了旅行社、喜鴻假期、鳳凰旅遊",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。",
+            "航空公司限臨櫃、官網及APP購票與機上免稅等，不含旅行社及線上旅遊平台購票。",
+            "旅遊平台需線上完成付款方享回饋，到店付款不列入回饋計算。",
+            "雄獅旅遊不含旅天下之加盟商；Klook限國內消費且交易幣別為新臺幣；找到了旅行社之分期交易不適用本活動。"
         ],
         "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard#3"
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "百大指定消費-國外實體",
+        "rewardRates": [
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
+        ],
+        "period": "2026/7/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "國外實體：日本、韓國、泰國、越南、新加坡、馬來西亞、菲律賓、中國、香港、澳門、美國、加拿大、英國、法國、德國、義大利、澳洲、紐西蘭",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。",
+            "刷卡交易範圍限指定國別之國外實體商店面對面交易，網路交易不列入回饋計算；關島地區不認列於美國交易。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "百大指定消費-精選商家",
+        "rewardRates": [
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
+        ],
+        "period": "2026/7/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "精選商家：Apple直營店(含台北101、信義A13直營店、Apple Store在線商城)、小米台灣(含官網、小米之家、小米專賣店)、全國電子(含官網線上購物)、燦坤(含官網線上購物)、拓元售票、威秀影城、國賓影城、新光影城、錢櫃KTV",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。",
+            "Apple直營店不含國外特店；小米台灣不含網購平台商城。",
+            "指定影城購票方式僅限現場刷卡購票及影城網路訂票，委託代售不列入回饋。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "百大指定消費-ESG消費",
+        "rewardRates": [
+            "簡單選加碼 2%（上限 1,000 點）",
+            "任意選加碼 2.5%（上限 1,000 點）",
+            "UP選加碼 3.5%（上限 5,000 點）"
+        ],
+        "period": "2026/7/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "ESG消費：玉山Wallet愛心捐款-單筆捐款、玉山Wallet愛心捐款-定期定額、特斯拉",
+            "公益捐款限透過玉山Wallet愛心捐款專區刷卡交易。",
+            "特斯拉限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，透過第三方支付及電子支付錢包將不認列為該特店交易。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山數位帳戶新戶 享玉山Unicard加碼10%",
+        "rewardRates": [
+            "加碼 10%（上限 500 點）"
+        ],
+        "period": "2026/10/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "一般消費：全通路一般消費",
+            "首次開立臺外幣玉山數位存款帳戶之全新存戶，於線上開戶填入活動代碼「CARD500」並完成申辦玉山帳戶自動扣繳信用卡費，享玉山Unicard一般消費加碼10%回饋。",
+            "全新存戶定義為2025/12/31前無玉山流通之存款帳戶；活動限額4,000人。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "週三玉山日 玉山Unicard全聯/大全聯 享10%回饋",
+        "rewardRates": [
+            "10%（每歸戶每週三上限 100 點）"
+        ],
+        "period": "2026/9/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "生活採買：全聯福利中心、大全聯",
+            "需至玉山Wallet領取專屬優惠，每週三使用玉山Unicard綁定全支付(PXPay Plus)或PX Pay於實體門市單筆消費滿1,000元贈100點玉山e point。",
+            "PX GO!全聯線上購、「PX Pay購物」箱購、小時達、全電商、分批取、外送平台皆不適用。",
+            "大全聯中崙店不適用；中和店自2026/10/1起適用。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "遠東Garden City開幕 玉山Unicard專屬 加碼1.5%",
+        "rewardRates": [
+            "加碼 1.5%（每歸戶上限 300 點）"
+        ],
+        "period": "2026/9/16~2026/10/4",
+        "card": "玉山 Unicard",
+        "details": [
+            "國內百貨：遠東Garden City",
+            "需於活動期間內至玉山Wallet領取專屬優惠。",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，第三方支付及電子支付錢包不認列。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Unicard 和你一起喝咖啡 指定咖啡品牌加碼3%",
+        "rewardRates": [
+            "加碼 3%（每歸戶上限 300 點）"
+        ],
+        "period": "2026/9/1~2026/10/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "餐飲美食：星巴克、路易莎、cama café",
+            "需至玉山Wallet領取專屬優惠，當月於指定咖啡品牌消費滿5筆享加碼3%回饋。",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，第三方支付及電子支付錢包不認列。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Unicard 與你走透透 U-POWER加碼3%",
+        "rewardRates": [
+            "加碼 3%（每月每歸戶上限 300 點）"
+        ],
+        "period": "2026/10/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "加油交通：U-POWER",
+            "需至玉山Wallet領取專屬優惠，當月至U-POWER消費滿3筆享加碼3%回饋。",
+            "限使用玉山Unicard實體卡(含綁定Apple Pay、Google Pay、Samsung Pay)支付，第三方支付及電子支付錢包不認列。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Wallet樂享優惠 TWQR/台灣Pay指定活動最高20%回饋",
+        "rewardRates": [
+            "最高 20%（墊腳石期間上限 300 元；夜市單筆上限 300 元、期間上限 1,000 元）"
+        ],
+        "period": "2026/7/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "生活採買：墊腳石、臨江街觀光夜市、艋舺夜市",
+            "使用玉山Wallet電子支付綁定玉山Unicard付款，適用指定商店活動優惠。",
+            "墊腳石單筆消費不限金額享20%回饋，期間上限300元；臨江街觀光夜市與艋舺夜市單筆消費不限金額享20%回饋，單筆上限300元、期間上限1,000元。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "秋楓冬雪漫遊趣 最高享4,000元回饋",
+        "rewardRates": [
+            "滿額禮最高 2,000 點（每歸戶限領 1 份）",
+            "加碼禮 2,000 元好禮即享券（每歸戶限領 1 份）"
+        ],
+        "period": "2026/10/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "旅行社：雄獅旅遊、旅天下直營、易遊網、可樂旅遊、東南旅遊、五福旅遊、鳳凰旅遊、ezfly易飛旅遊、喜鴻假期、長汎假期、山富旅遊、加利利旅行社、利百加旅遊、品冠旅遊、燦星旅遊、元本旅遊、百威假期、華友旅行、行健旅遊、大興旅行社、上順旅遊、凱旋旅行社、巨匠旅遊、巨大旅遊、世邦旅遊、太平洋旅行社、晴天旅行社、晴日旅行社、誠翔旅行社、珂境旅行社(Club Med)、賓士旅行社、金龍永盛旅行社、太一國際旅行社、找到了旅行社",
+            "航空及旅遊平台：星宇航空、中華航空、長榮航空、立榮航空、華信航空、台灣虎航、Klook、KKday、AsiaYo、Trip.com、Agoda、Expedia、Hotels.com",
+            "累積消費滿3萬元贈500點、滿5萬元贈1,000點、滿9萬元贈2,000點玉山e point；滿20萬元贈2,000元好禮即享券。",
+            "需登錄，滿額禮每月限量1,600名，加碼禮限量660名。",
+            "外幣結帳之消費及第三方支付(如Pi拍錢包、街口、LINE Pay等)恕不適用；找到了旅行社分期交易不適用。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Unicard Klook臺日鐵路 最高享85折",
+        "rewardRates": [
+            "日本新幹線 88 折（最高折抵 300 元）",
+            "臺灣高鐵國旅聯票 85 折（最高折抵 120 元）"
+        ],
+        "period": "2026/7/15~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "航空旅遊：Klook",
+            "專屬網頁持玉山Unicard訂購日本新幹線輸入優惠碼【ESUNSKS2688】享88折，每個帳號每月限用1次，限量6,000組。",
+            "成功使用新幹線優惠結帳後加贈高鐵國旅聯票85折優惠碼，每個帳號限用1次，限量6,000組。",
+            "第三方支付、手機支付、電子支付方式(如Apple Pay、Google Pay、LINE Pay等)恕不適用。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "Trip.com訂房、機票 滿額最高享11.5%折扣",
+        "rewardRates": [
+            "機票現折 200~1,000 元",
+            "訂房 5%~7% 折扣無上限"
+        ],
+        "period": "2026/1/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "航空旅遊：Trip.com",
+            "預訂國際航線機票輸入【ESUN26F】滿10,000元折200元、滿13,000元折300元、滿16,000元折400元；Unicard限定輸入【ESUNUNICARD26F】滿20,000元折600元、滿30,000元折1,000元。",
+            "全球訂房輸入【ESUN26H】享5%折扣無上限、滿10,000元享6%折扣無上限、滿15,000元享7%折扣無上限。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Unicard 東南旅遊團旅 最高享1,000元優惠",
+        "rewardRates": [
+            "環島巴士現折 500 元",
+            "東南亞團旅現折 1,000 元"
+        ],
+        "period": "2026/1/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "航空旅遊：東南旅遊",
+            "購買環島巴士行程輸入折扣碼【26BUS500】享現折500元；購買東南亞指定團體旅遊行程輸入折扣碼【26SA1000】享每卡現折1,000元。",
+            "需登入東南旅遊會員持玉山Unicard全額付款，不可與其他優惠或折扣碼合併使用。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Unicard AsiaYo消費 週三玉山日最高享8%優惠",
+        "rewardRates": [
+            "8% 折扣（單筆最高折抵 1,000 元）"
+        ],
+        "period": "2026/1/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "航空旅遊：AsiaYo",
+            "週三於AsiaYo App預訂全站商品輸入折扣碼【26ESUN8】享8%折扣。",
+            "限使用AsiaYo App預訂並以玉山信用卡支付全額費用，每筆訂單限用一組折扣碼。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "台灣中油直營站 享最高7.5%回饋",
+        "rewardRates": [
+            "加碼 3%（每月每歸戶上限 100 點）"
+        ],
+        "period": "2026/10/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "加油交通：台灣中油(直營店)",
+            "當月使用玉山Unicard於台灣中油直營站加油累積滿3,000元以上並登錄活動，享3%玉山e point加碼回饋。",
+            "需於每月指定登錄時間完成登錄，每月限量20,000名。",
+            "限使用實體卡(含Apple Pay、Google Pay、Samsung Pay、中油Pay)支付，透過第三方支付及電子支付錢包恕無法參加。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "台塑石油PAY 綁卡加油享優惠",
+        "rewardRates": [
+            "滿額贈 50 點（每歸戶上限 50 點）"
+        ],
+        "period": "2026/10/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "加油交通：台亞加油站、福懋加油站、台塑石油加油站",
+            "首次綁定台塑石油PAY於指定加油站支付加油累積滿1,500元以上並登錄活動，享50點玉山e point回饋。",
+            "需登錄，總限量24,000名(分三波各限量8,000名)。",
+            "首次綁定定義為2026/10/1前從未以玉山信用卡綁定台塑石油PAY消費。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Unicard專享 AmpGO 200元充電折扣券",
+        "rewardRates": [
+            "贈 200 元票券（4張50元折扣券）"
+        ],
+        "period": "2026/7/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "加油交通：AmpGO",
+            "於AmpGO APP輸入兌換碼「Unicard26」即可領取總價值200元之票券(4張50元折扣券)。",
+            "每人限兌換一次，使用期限為兌換後60天內，須使用玉山Unicard付款始得使用優惠。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "Unicard扣繳壽險保費 最高享1.1%回饋",
+        "rewardRates": [
+            "最高 1.1%（加碼 0.1%，無上限）"
+        ],
+        "period": "2026/1/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "保險：國內壽險保險公司",
+            "玉山Unicard繳國內以新臺幣計價之「壽險」保費不限金額，結帳前3日完成登錄最高享1.1%回饋(含自動扣繳與帳單e化之1% + 保費加碼0.1%)。",
+            "躉繳保費、三商美邦投資型保單及已登錄參加保費分期0利率活動者不適用。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山萬事達卡 優先購票活動",
+        "rewardRates": [
+            "優先購票權利"
+        ],
+        "period": "2026/7/1~2027/6/30",
+        "card": "玉山 Unicard",
+        "details": [
+            "精選商家：拓元售票系統",
+            "持玉山Unicard Mastercard享優先購買Live Nation指定演唱會預售票權利，數量有限，售完為止。",
+            "購票前需先至拓元售票系統註冊會員並完成手機號碼驗證。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Unicard Visa卡 日本旅遊刷全球精品名牌 享最高14.5%回饋",
+        "rewardRates": [
+            "滿額最高 10% 現金回饋"
+        ],
+        "period": "2026/4/27~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "國外實體：大丸百貨(心齋橋店、東京店、京都店、札幌店、神戶店、下關店、梅田店)、松坂屋百貨(名古屋店、上野店、靜岡店)、近鐵百貨、成田機場免稅店、京王百貨、小田急百貨、東武百貨",
+            "持玉山Unicard Visa卡至Visa Select優選回饋頁面完成註冊與報名取得專屬券碼，結帳出示專屬券碼並以實體卡結帳。",
+            "大丸/松坂屋指定國際高奢滿10萬日圓回饋1萬日圓、潮奢滿5萬日圓回饋5千日圓、美妝服飾母嬰滿2萬日圓回饋2千日圓；近鐵/成田機場/京王/小田急/東武美妝服飾母嬰滿2萬日圓回饋2千日圓(每月限一次)。",
+            "限境外實體刷卡交易，不含Apple Pay、Google Pay等行動支付或第三方電子錢包。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "日本三越伊勢丹 滿額享回饋",
+        "rewardRates": [
+            "滿額最高 30,000 日圓回饋（每段期間每卡上限 30,000 日圓）"
+        ],
+        "period": "2026/7/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "國外實體：伊勢丹新宿店(含本館及男士館)、日本橋三越總店、銀座三越店",
+            "持玉山Unicard JCB實體卡於指定門市累積以日圓支付，滿20萬日圓回饋1萬日圓、滿40萬日圓回饋2萬日圓、滿60萬日圓回饋3萬日圓現金回饋。",
+            "免登錄，活動分2階段，透過第三方機構付款不適用。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山Unicard JCB晶緻卡專享禮遇",
+        "rewardRates": [
+            "悠遊自動加值 10%",
+            "星巴克單杯半價",
+            "食在日系現折 50 元",
+            "機場接送優惠價 700 元起"
+        ],
+        "period": "2026/1/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "交通：悠遊卡自動加值、LINE GO機場接送",
+            "餐飲美食：星巴克、CoCo壹番屋、Torikizoku Taiwan-台灣鳥貴族、YAYOI彌生軒、一風堂、台湾スシロー台灣壽司郎、吉豚屋(桃園機場店與北車店不適用)、花月嵐拉麵、和民手作廚房、武蔵野森珈琲Diner、燒丼株式會社",
+            "持玉山Unicard JCB卡於專屬網頁登錄成功後享各項禮遇。",
+            "悠遊自動加值每卡每月須完成登錄；食在日系需取得優惠序號且持實體卡結帳，單筆交易折抵50元且不得拆刷。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "玉山萬事達卡 海外消費回饋平台 專屬現金回饋",
+        "rewardRates": [
+            "指定商戶滿額現金回饋"
+        ],
+        "period": "2026/10/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "國外實體：大丸福岡天神店、BicCamera、唐吉訶德、SUICA、OLIVE YOUNG、新羅免税店(SHILLA DUTY FREE)、漢江遊覽船(E-LAND CRUISE)、倫敦文華東方酒店、倫敦眼(London Eye)、巴黎文華東方酒店(Mandarin Oriental, Paris)、Galeries Lafayette Bordeaux",
+            "持玉山Unicard Mastercard至Mastercard海外消費回饋平台登錄註冊與啟用優惠。",
+            "大丸福岡天神單筆滿JPY 30,000享JPY 3,000；BicCamera單筆滿JPY 30,000享JPY 2,000；唐吉訶德單筆滿JPY 10,000享JPY 1,000；SUICA單筆滿JPY 8,000享JPY 200；OLIVE YOUNG單筆滿KRW 90,000享KRW 10,000；新羅免稅店單筆滿KRW 250,000享KRW 25,000。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "Unicard ˙ 玉山證券 專屬開戶好禮",
+        "rewardRates": [
+            "1,000 元手續費回饋金及超優交易手續費率"
+        ],
+        "period": "2026/10/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "金融服務：玉山證券",
+            "玉山Unicard卡友登錄活動並新開立玉山證券帳戶，享1,000元台股電子下單手續費回饋金及超優交易手續費率優惠至2027/6/30。",
+            "需目前無玉山證券任何帳戶且於2026/5/1~2026/12/31無銷戶紀錄。",
+            "手續費回饋金不得抵用2萬元以內的台股定期存股(台股e指存)手續費。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "綁定玉山Wallet 搭台北捷運 最高享4.5%回饋",
+        "rewardRates": [
+            "最高 4.5%"
+        ],
+        "period": "2026/7/1~2026/12/31",
+        "card": "玉山 Unicard",
+        "details": [
+            "加油交通：台北捷運",
+            "持玉山Unicard綁定玉山Wallet電子支付使用北捷乘車碼服務，最高享4.5%回饋。",
+            "可同時使用玉山e point點數100%折抵乘車費。"
+        ],
+        "link": [
+            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
+        ]
+    },
+    {
+        "campaignName": "Chill刷",
+        "rewardRates": [
+            "最高 10%（3.3%~10%）"
+        ],
+        "period": "2026/7/8~2026/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "歡聚微醺(10%)：詹記麻辣火鍋、萬客什鍋、海底撈、屋馬燒肉、茶六燒肉堂、新村站著吃、燒肉政宗、碳佐麻里、雞湯大叔、gonna共樂遊、BRUN 不然、CAFE ACME、The Antipodean、貳樓、樂子 the Diner、Fake Sober、Draft Land、臺虎精釀(含啜飲室)、ABV系列、Bar TCRC、Bar Home、Phowa、MOONROCK、台灣代駕(10/1起新增)、Motodomo 愛車管家(10/1起新增)",
+            "日常續命(10%)：50嵐、得正、五桐號、龜記、UG TEA、叮哥茶飲、CAFE!N、%Arabica、COMPOSE COFFEE",
+            "約會犒賞(5%)：饗饗 INPARADISE、NAGOMI",
+            "應援追星(5%)：WEVERSE、K-MONSTAR、微樂客、五大唱片、仙女樹、FANME、NOL",
+            "熬夜追更(5%)：巴哈姆特、BOOK WALKER、Animate、樂天KOBO、Readmoo讀墨、Netflix、Disney+、愛爾達",
+            "數位外掛(5%)：Pinkoi(10/1起新增)",
+            "數位外掛(3.3%)：Apple 直營(含官網)、Studio A(含Straight A)、DJI、Insta360、GoPro、蝦皮、淘寶、酷澎、Uber Eats",
+            "營養補給(5%)：好好生醫、POPCARE好在乎、營養師輕食、VITABOX、MYPROTEIN、UrMart優馬選品",
+            "體態養成(5%)：Anytime Fitness、健身工廠、World Gym、超核心 Hypercore、KX PILATES、虎鐵健身 X 器械皮拉提斯、17FIT",
+            "運動品牌(5%)：Adidas、New Balance、PUMA、Onitsuka Tiger、Nike、HOKA、Salomon、lululemon",
+            "限使用實體信用卡(含線上輸入卡號)、台新Pay、Apple Pay、Google 錢包、Samsung Pay或LINE Pay綁定消費，其他型態支付工具不適用",
+            "指定通路限獨立店或線上官網，若透過其他百貨、外送平台、網購平台、商場、飯店等產生之消費不予加碼回饋",
+            "每期帳單加碼回饋之消費金額以持卡人之永久信用額度加計NT$30萬為限",
+            "特約商店分期付款交易及單筆消費分期0利率不回饋"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
         ]
     },
     {
         "campaignName": "Pay著刷",
         "rewardRates": [
-            "2.3% OR 3.8%（無上限）"
+            "台新Pay及台新Pay+ 最高 3.8%",
+            "LINE Pay及全盈+Pay 最高 2.3%"
         ],
-        "period": "2026/1/1～2026/6/30",
+        "period": "2026/7/1~2027/12/31",
         "card": "台新Richart卡",
         "details": [
-            "台新Pay及台新Pay+綁定支付享 3.8%",
-            "LINE Pay 綁定支付享 2.3%"
-        ],
-        "link": [
-            "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
-        ]
-    },
-    {
-        "campaignName": "數趣刷",
-        "rewardRates": [
-            "3.3%（無上限）"
-        ],
-        "period": "2026/1/1～2026/6/30",
-        "card": "台新Richart卡",
-        "details": [
-            "網購平台：蝦皮｜momo｜酷澎(Coupang)｜PChome｜淘寶｜Amazon｜東森｜博客來｜Richart Mart｜PayEasy｜iHerb｜SHEIN｜Farfetch｜Olive Young",
-            "線上課程：知識衛星｜Amazing Talker｜Tutor ABC｜Hahow｜PressPlay",
-            "遊戲影音：MyCard｜遊戲橘子｜Steam｜PlayStation｜Nintendo｜Netfilx｜Disney+",
-            "AI服務：ChatGPT｜Notion｜Canva｜Perplexity｜Claude"
-        ],
-        "link": [
-            "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
-        ]
-    },
-    {
-        "campaignName": "玩旅刷",
-        "rewardRates": [
-            "3.3%（無上限）"
-        ],
-        "period": "2026/1/1～2026/6/30",
-        "card": "台新Richart卡",
-        "details": [
-            "海外消費（含實體及線上、歐洲國家交易）",
-            "航空公司：華航｜長榮｜星宇｜虎航｜國泰航空｜華信｜立榮｜樂桃｜阿聯酋｜亞洲航空｜酷航｜捷星｜新加坡航空｜日本航空｜越捷航空",
-            "海外交通/網路：Uber｜Grab｜SUICA｜ICOCA｜PASMO｜WOWPASS｜AIRSIM",
-            "訂房平台：Klook｜KKday｜Agoda｜Booking.com｜Trip.com｜Airbnb｜Hotels.com｜Expedia",
-            "旅行社：雄獅旅遊｜易遊網｜東南旅遊｜可樂旅遊｜長汎假期｜五福旅遊｜喜鴻假期｜易飛旅遊｜燦星旅遊｜加利利旅行社｜鳳凰國際旅行社｜山富旅遊｜行健旅遊"
+            "台新Pay(3.8%)：全家、7-11、新光三越、Richart Mart、康是美、IKEA、NET、神腦、燦坤、全國電子、麥當勞、美廉社、大樹藥局",
+            "台新Pay+(3.8%)：日本LAWSON、日本BicCamera、韓國GS25、韓國DAISO",
+            "行動支付(2.3%)：LINE Pay、全盈+Pay(7/8起新增)",
+            "台新Pay+日韓交易享免1.5%國外交易手續費",
+            "LINE Pay及全盈+Pay限交易地為臺灣且交易幣別為新臺幣",
+            "每期帳單加碼回饋之消費金額以持卡人之永久信用額度加計NT$30萬為限",
+            "特約商店分期付款交易及單筆消費分期0利率不回饋"
         ],
         "link": [
             "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
@@ -336,15 +831,19 @@
     {
         "campaignName": "天天刷",
         "rewardRates": [
-            "3.3%（無上限）"
+            "最高 3.3%"
         ],
-        "period": "2026/1/1～2026/6/30",
+        "period": "2026/7/1~2027/12/31",
         "card": "台新Richart卡",
         "details": [
-            "超商量販：7-11及全家(限使用台新Pay綁定支付)｜家樂福｜大買家｜唐吉訶德、LOPIA",
-            "通勤交通：台鐵｜高鐵｜台灣大車隊｜LINEGO｜Yoxi｜Uber｜台灣Bolt",
-            "加油充電：中油直營｜全國加油｜全國特急電｜源點EVOASIS｜華城電能EVALUE｜USPACE｜Autopass(車麻吉)",
-            "藥妝藥局：寶雅｜康是美｜屈臣氏｜杏一醫療｜大樹藥局｜丁丁藥局｜佑全保健藥妝｜健康人生藥局"
+            "日常採買：全家(限台新Pay)、7-11(限台新Pay)、萬家福、樂家康、大買家、唐吉訶德、LOPIA、智生活(7/8起新增)",
+            "通勤交通：臺鐵、高鐵、台灣大車隊、LINEGO、Yoxi、Uber、台灣Bolt",
+            "加油充電：中油直營、全國加油、全國特急電、源點EVOASIS、華城電能EVALUE、USPACE、Autopass(車麻吉)",
+            "藥妝藥局：寶雅、康是美、屈臣氏、杏一醫療、大樹藥局、丁丁藥局、佑全保健藥妝、健康人生藥局",
+            "全家及7-11限綁定台新Pay支付，單筆限額最高NT$3,000，使用實體卡或其他行動支付不予加碼且不予一般消費回饋",
+            "限使用實體信用卡(含線上輸入卡號)、台新Pay、Apple Pay、Google 錢包或Samsung Pay綁定消費，其他型態支付工具不適用（LINE Pay限LINEGO適用加碼）",
+            "每期帳單加碼回饋之消費金額以持卡人之永久信用額度加計NT$30萬為限",
+            "特約商店分期付款交易及單筆消費分期0利率不回饋"
         ],
         "link": [
             "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
@@ -353,15 +852,20 @@
     {
         "campaignName": "大筆刷",
         "rewardRates": [
-            "3.3%（無上限）"
+            "最高 3.3%"
         ],
-        "period": "2026/1/1～2026/6/30",
+        "period": "2026/7/1~2027/12/31",
         "card": "台新Richart卡",
         "details": [
-            "指定百貨：新光三越(含skm pay)｜遠東百貨｜遠東SOGO｜漢神巨蛋｜漢神百貨｜微風｜台北101｜遠東巨城｜廣三SOGO｜南紡購物中心｜誠品生活(含線上)｜京站｜三創生活｜夢時代｜統一時代(含DREAM PLAZA)｜中友百貨｜Mitsui Shopping Park LaLaport(南港/台中)",
-            "指定Outlet：MITSUI OUTLET PARK (林口、台中港、台南)｜華泰名品城｜SKM Park Outlets",
-            "居家裝修：IKEA｜特力屋｜HOLA｜宜得利｜瑪黑家居",
-            "時尚品味：UNIQLO｜GU｜ZARA｜NET｜lululemon"
+            "指定百貨：新光三越(含skm pay)、遠東百貨、遠東SOGO、漢神巨蛋、漢神百貨、漢神洲際、微風、台北101、遠東巨城、廣三SOGO、南紡購物中心、誠品生活(含線上)、京站、三創生活、夢時代、統一時代(含DREAM PLAZA)、中友百貨、Mitsui Shopping Park LaLaport(南港/台中)",
+            "指定Outlet：MITSUI OUTLET PARK (林口/台中港/台南)、華泰名品城、SKM Park Outlets",
+            "居家裝修：IKEA、特力屋、HOLA、宜得利、瑪黑家居",
+            "時尚品味：UNIQLO、GU、ZARA、NET、lululemon",
+            "新光三越台北車站店及百貨店中店(如Apple直營店)不予加碼回饋",
+            "微風僅微風廣場、微風南京、微風松高、微風信義、微風南山享加碼；誠品生活不含誠品書店",
+            "限使用實體信用卡(含線上輸入卡號)、台新Pay、Apple Pay、Google 錢包或Samsung Pay綁定消費，百貨自有支付工具(如101 Pay、微風錢包，skm pay除外)及LINE Pay等其他行動支付不適用",
+            "每期帳單加碼回饋之消費金額以持卡人之永久信用額度加計NT$30萬為限",
+            "特約商店分期付款交易及單筆消費分期0利率不回饋"
         ],
         "link": [
             "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
@@ -370,17 +874,69 @@
     {
         "campaignName": "好饗刷",
         "rewardRates": [
-            "3.3%（無上限）"
+            "最高 3.3%"
         ],
-        "period": "2026/1/1～2026/6/30",
+        "period": "2026/7/1~2027/12/31",
         "card": "台新Richart卡",
         "details": [
-            "全臺餐飲（不含餐券）｜王品瘋Pay",
-            "展演購票：拓元售票｜KKTIX｜年代售票｜寬宏售票｜OPENTIX兩廳院文化生活｜FunNow",
-            "外送平台：Uber Eats｜Foodpanda",
-            "指定KTV：錢櫃｜好樂迪｜ONCOR｜sing!go｜享溫馨",
-            "指定飯店：晶華國際酒店集團｜雲朗觀光｜台灣萬豪國際集團旗下飯店｜煙波國際觀光集團｜老爺酒店集團｜福華集團｜漢來飯店事業群｜台北君悅酒店｜高雄洲際酒店｜臺中勤美洲際酒店｜礁溪寒沐酒店",
-            "指定飯店不含餐券、住宿券等票券，適用加碼飯店詳注意事項"
+            "全臺餐飲：全臺餐飲(不含餐券)、王品瘋Pay",
+            "外送平台：Uber Eats、Foodpanda",
+            "購票娛樂：拓元售票、KKTIX、年代售票、寬宏售票、OPENTIX兩廳院文化生活、FunNow",
+            "指定KTV：錢櫃、好樂迪、ONCOR、sing!go、享溫馨",
+            "指定飯店：台北晶華酒店、礁溪晶泉丰旅、北投晶泉丰旅、台南晶英酒店、太魯閣晶英酒店、蘭城晶英酒店、捷絲旅、君品酒店、雲品溫泉酒店、翰品酒店、兆品酒店、品文旅、台北萬豪酒店、高雄萬豪酒店、W HOTEL、台北喜來登大飯店、台北士林萬麗酒店、台北國泰萬怡酒店、台北六福萬怡酒店、林口亞昕福朋喜來登酒店、八里福朋喜來登酒店、桃園喜來登酒店、新竹豐邑喜來登大飯店、宜蘭礁溪福朋喜來登酒店、台東桂田喜來登酒店、澎湖福朋喜來登酒店、然一酒店、台北寒舍艾美酒店、台北賦樂旅居、台北宿之酒店．臻品之選、台北中山雅樂軒酒店、台北北投雅樂軒酒店、台南安平雅樂軒酒店、桃園大溪笠復威斯汀度假酒店、宜蘭力麗威斯汀度假酒店、台中李方艾美酒店、台中萬楓酒店、台中豐邑MOXY酒店、花蓮潔西艾美酒店、煙波花蓮太魯閣、煙波新竹湖濱館、煙波新竹都會館、煙波花蓮館、煙波蘇澳四季雙泉館、煙波宜蘭館、煙波台南館、煙波花時間 宜蘭傳藝、煙波花時間 花蓮、礁溪老爺酒店、知本老爺酒店、新竹老爺酒店、北投老爺酒店、台北老爺酒店、台南老爺行旅、台中大毅老爺行旅、南港老爺行旅、老爺會館台北南西、老爺會館台北林森、台北福華大飯店、石門水庫福華渡假飯店、新竹福華大飯店、台中福華大飯店、溪頭福華渡假飯店、雲林華安大飯店、高雄福華大飯店、墾丁福華渡假飯店、台北漢來大飯店、高雄漢來大飯店、漢來日月行館、台北君悅酒店、臺中勤美洲際酒店、高雄洲際酒店、礁溪寒沐酒店",
+            "餐飲排除餐券、小額支付平台(如麥當勞、肯德基、水巷茶弄)、菸酒交易、酒吧、KTV、酒店、飯店、百貨、商場、外送平台產生之餐飲消費",
+            "外送平台限交易地為臺灣且交易幣別為新臺幣",
+            "指定飯店排除購買餐券、住宿券等票券及代訂服務或相關精品商店",
+            "限使用實體信用卡(含線上輸入卡號)、台新Pay、Apple Pay、Google 錢包或Samsung Pay綁定消費，其他型態支付工具不適用",
+            "每期帳單加碼回饋之消費金額以持卡人之永久信用額度加計NT$30萬為限",
+            "特約商店分期付款交易及單筆消費分期0利率不回饋"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
+        ]
+    },
+    {
+        "campaignName": "數趣刷",
+        "rewardRates": [
+            "最高 3.3%"
+        ],
+        "period": "2026/7/1~2027/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "網購平台：蝦皮、momo、酷澎(Coupang)、PChome、淘寶、Amazon、東森、博客來、Richart Mart、PayEasy、iHerb、SHEIN、Farfetch、Olive Young",
+            "線上課程：知識衛星、Amazing Talker、Tutor ABC、Hahow、PressPlay",
+            "遊戲影音：MyCard、遊戲橘子、Steam、PlayStation、Nintendo、Netflix、Disney+",
+            "AI服務：ChatGPT、Notion、Canva、Perplexity、Claude",
+            "蝦皮限交易地為臺灣且交易幣別為新臺幣；網購排除購買黃金等貴金屬、遊戲點數、票券及點數類商品",
+            "PChome 24h購物排除儲值與電子票券，若購物車含排除商品則整筆訂單不予加碼回饋",
+            "限使用實體信用卡(含線上輸入卡號)、台新Pay、Apple Pay、Google 錢包或Samsung Pay綁定消費，其他型態支付工具不適用",
+            "每期帳單加碼回饋之消費金額以持卡人之永久信用額度加計NT$30萬為限",
+            "特約商店分期付款交易及單筆消費分期0利率不回饋"
+        ],
+        "link": [
+            "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
+        ]
+    },
+    {
+        "campaignName": "玩旅刷",
+        "rewardRates": [
+            "最高 3.3%"
+        ],
+        "period": "2026/7/1~2027/12/31",
+        "card": "台新Richart卡",
+        "details": [
+            "海外消費：海外消費(含實體及線上、歐洲國家交易)",
+            "航空公司：中華航空、長榮航空、星宇航空、台灣虎航、國泰航空、華信航空、立榮航空、樂桃航空、阿聯酋航空、亞洲航空、酷航、捷星航空、新加坡航空、日本航空、越捷航空",
+            "海外交通/網路：Uber、Grab、SUICA、ICOCA、PASMO、WOWPASS、AIRSIM",
+            "訂房平台：Klook、KKday、Agoda、Booking.com、Trip.com、Airbnb、Hotels.com、Expedia",
+            "旅行社：雄獅旅遊、易遊網、東南旅遊、可樂旅遊、長汎假期、五福旅遊、喜鴻假期、易飛旅遊、燦星旅遊、加利利旅行社、鳳凰國際旅行社、山富旅遊、行健旅遊",
+            "航空公司限於實體或官網購票，透過第三方訂票平台不予加碼回饋",
+            "訂房平台到店付款且收單特店為飯店或民宿者不予加碼回饋",
+            "旅行社限於直營通路(含官網)消費，加盟店或代銷平台不予加碼回饋",
+            "AIRSIM限於官網或APP訂購且商店名稱為AIRSIM；Uber限交易地非臺灣或幣別非新臺幣",
+            "限使用實體信用卡(含線上輸入卡號)、台新Pay、Apple Pay、Google 錢包或Samsung Pay綁定消費，其他型態支付工具不適用",
+            "每期帳單加碼回饋之消費金額以持卡人之永久信用額度加計NT$30萬為限",
+            "特約商店分期付款交易及單筆消費分期0利率不回饋"
         ],
         "link": [
             "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
@@ -389,84 +945,21 @@
     {
         "campaignName": "假日刷",
         "rewardRates": [
-            "2%（無上限）"
+            "最高 2%"
         ],
-        "period": "2026/1/1～2026/6/30",
+        "period": "2026/7/1~2027/12/31",
         "card": "台新Richart卡",
         "details": [
-            "國內節假日不限通路(含保費)消費享2% (含LINE Pay綁定)"
+            "國內節假日消費：國內節假日不限通路消費(含保費)",
+            "國內節假日依行政院人事行政總處公告之國定例假日為準(不含天災假)",
+            "含線上投保及手動刷卡繳保費享2%回饋；保險公司自動扣繳保費均享最高1.3%",
+            "限使用實體信用卡(含線上輸入卡號)、台新Pay、Apple Pay、Google 錢包、Samsung Pay、LINE Pay或全盈+Pay綁定消費，其他型態支付工具不適用",
+            "臺北捷運感應支付及一般消費不回饋項目(如超商、繳稅費)不予加碼回饋",
+            "每期帳單加碼回饋之消費金額以持卡人之永久信用額度加計NT$30萬為限",
+            "特約商店分期付款交易及單筆消費分期0利率不回饋"
         ],
         "link": [
             "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
-        ]
-    },
-    {
-        "campaignName": "保費免切換",
-        "rewardRates": [
-            "1.3%（無上限）"
-        ],
-        "period": "2026/1/1～2026/6/30",
-        "card": "台新Richart卡",
-        "details": [
-            "本活動限一次付清，保費認列不含國外保險交易、躉繳保費、投資型保費、彈性繳保費、單筆消費分期0利率之交易，海外保險、非臺灣保險公司扣繳之保險費、健保費等"
-        ],
-        "link": [
-            "https://mkp.taishinbank.com.tw/s/2025/RichartCard_2025/index.html"
-        ]
-    },
-    {
-        "campaignName": "玉山Unicard 新春歡聚餐飲加碼3%",
-        "rewardRates": [
-            "3%"
-        ],
-        "period": "2026/1/16～2026/3/31",
-        "card": "玉山Unicard",
-        "details": [
-            "需於活動期間內至玉山Wallet「我的>玉山Unicard-我的方案」領取專屬優惠",
-            "國內餐飲消費享加碼3%玉山e point回饋 (每歸戶回饋上限300點)",
-            "餐飲消費MCC Code為5811、5812、5813、5814的國內餐飲消費",
-            "不提供回饋通路：財團法人聯合信用卡中心小額支付平台收費之餐廳 (如麥當勞、肯德基等)、菸酒交易、酒吧、KTV、酒店、飯店、百貨、商場、外送平台產生之餐廳消費",
-            "限使用玉山Unicard實體卡 (含綁定Apple Pay、Google Pay、Samsung Pay)支付",
-            "透過第三方支付及電子支付錢包不認列"
-        ],
-        "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
-        ]
-    },
-    {
-        "campaignName": "玉山Unicard 挺你追星 指定購票平台加碼3%",
-        "rewardRates": [
-            "3%"
-        ],
-        "period": "2026/1/16～2026/3/31",
-        "card": "玉山Unicard",
-        "details": [
-            "需於活動期間內至玉山Wallet「我的>玉山Unicard-我的方案」領取專屬優惠",
-            "指定購票平台消費，享加碼3%玉山e point回饋 (每歸戶回饋上限300點)",
-            "指定購票平台為拓元售票系統、KKTIX及寬宏售票系統",
-            "限使用玉山Unicard實體卡 (含綁定Apple Pay、Google Pay、Samsung Pay)支付",
-            "透過第三方支付及電子支付錢包不認列"
-        ],
-        "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
-        ]
-    },
-    {
-        "campaignName": "玉山Unicard 一般消費",
-        "rewardRates": [
-            "0.3%",
-            "1%"
-        ],
-        "period": "2026/7/1~2026/12/31",
-        "card": "玉山Unicard",
-        "details": [
-            "0.3%玉山e point回饋，需申辦帳單e化(Email電子帳單或簡訊帳單)。",
-            "1%玉山e point回饋，需同時申辦帳單e化及申辦玉山銀行臺幣帳戶自動扣繳，且成功扣繳卡費。",
-            "消費回饋玉山e point，1點=1元，採逐筆四捨五入計算至整數，若未滿1點不列入回饋。",
-            "活動門檻限新增一般消費，不包含百大指定消費特店分期、歐盟實體交易、繳稅費、四大超商、全聯交易及綁定行動支付於本行公告之非一般消費通路消費。"
-        ],
-        "link": [
-            "https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard"
         ]
     }
 ]
