@@ -70,7 +70,7 @@ SOURCES = [
 
 
 class Campaign(BaseModel):
-    """與 campaigns.json 單筆資料相同的結構（card、link 由程式填入，不交給 LLM）"""
+    """與 campaigns.json 單筆資料相同的結構（card、links 由程式填入，不交給 LLM）"""
     campaignName: str
     rewardRates: list[str]
     period: str
@@ -258,7 +258,7 @@ def parse_with_llm(client, source, page_text):
             "period": c.period,
             "card": source["card"],
             "details": c.details,
-            "link": [source["link"]],
+            "links": [source["link"]],
         }
         for c in campaigns
     ]
