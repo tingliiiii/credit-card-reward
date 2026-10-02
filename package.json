@@ -5,18 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vue-tsc -b && vite build",
     "serve": "vite preview",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.5",
     "bootstrap-icons": "^1.11.3",
-    "vue": "^3.5.13",
-    "vue-router": "^4.5.1"
+    "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@types/vue": "^1.0.31",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue/tsconfig": "^0.7.0",
     "gh-pages": "^6.3.0",
