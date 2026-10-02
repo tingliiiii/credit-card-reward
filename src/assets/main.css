@@ -1,0 +1,18 @@
+/* 搜尋欄樣式 */
+.search-bar {
+    margin: 3rem auto;
+    width: 50%;
+  }
+  
+  /* 卡片樣式 */
+  .card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* 高亮樣式 */
+  .highlight {
+    background-color: yellow;
+    font-weight: bold;
+  }

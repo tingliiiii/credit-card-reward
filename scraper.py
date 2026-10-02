@@ -15,6 +15,7 @@ import json
 import os
 import ssl
 import sys
+import threading
 import time
 
 import requests
@@ -23,7 +24,13 @@ from pydantic import BaseModel
 from requests.adapters import HTTPAdapter
 
 CAMPAIGNS_PATH = "src/assets/campaigns.json"
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.7-flash")
+# 依序嘗試的模型：前一個忙碌、逾時或已下架時自動換下一個。
+# 可用環境變數覆蓋，多個以逗號分隔，例如 GEMINI_MODEL=gemini-3.7-flash,gemini-3.5-flash
+GEMINI_MODELS = [m.strip() for m in os.environ.get(
+    "GEMINI_MODEL", "gemini-3.8-flash,gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash"
+).split(",") if m.strip()]
+# 單次請求等待上限（秒），超過視為沒反應並換下一個模型
+GEMINI_TIMEOUT = 180
 # 送給 LLM 的文字上限（Gemini Flash 支援百萬 token，這裡只是避免異常大的頁面）
 MAX_TEXT_CHARS = 60000
 
@@ -159,36 +166,83 @@ def build_prompt(source, page_text):
 """
 
 
-def generate_with_retry(client, **kwargs):
+class AllModelsFailed(Exception):
+    """GEMINI_MODELS 中所有模型都忙碌、逾時或無法使用"""
+
+
+# 目前使用 GEMINI_MODELS 中的第幾個；某模型失敗換下一個後，之後的卡片就直接從可用的模型開始
+_model_index = 0
+
+
+def call_with_deadline(fn, timeout):
     """
-    呼叫 Gemini；伺服器忙碌（5xx）或逾時通常是暫時的，等 5、10、20、40、60 秒重試。
-    429（額度用完）等 4xx 錯誤不重試，等再久也不會恢復。
+    在背景執行緒執行 fn，最多等 timeout 秒，超過就拋出 TimeoutError。
+    httpx 的 timeout 只計算「多久沒收到資料」，伺服器若斷斷續續回應就可能一直卡住，
+    所以這裡另外用實際經過的時間強制中止等待。
     """
+    result = {}
+
+    def run():
+        try:
+            result["value"] = fn()
+        except BaseException as e:
+            result["error"] = e
+
+    # daemon=True：逾時後放著不管，程式結束時不必等它
+    thread = threading.Thread(target=run, daemon=True)
+    thread.start()
+    thread.join(timeout)
+    if thread.is_alive():
+        raise TimeoutError
+    if "error" in result:
+        raise result["error"]
+    return result["value"]
+
+
+def generate_with_fallback(client, **kwargs):
+    """
+    依 GEMINI_MODELS 順序呼叫 Gemini，遇到以下情況直接換下一個模型：
+    - 伺服器忙碌（5xx）
+    - 超過 GEMINI_TIMEOUT 秒沒完成
+    - 模型不存在（404）
+    429（額度用完）、401/403（Key 有誤）則直接拋出，換模型也沒用。
+    """
+    global _model_index
     import httpx
     from google.genai import errors
 
-    delays = [5, 10, 20, 40, 60]
-    for attempt in range(len(delays) + 1):
+    last_error = None
+    while _model_index < len(GEMINI_MODELS):
+        model = GEMINI_MODELS[_model_index]
         start = time.monotonic()
-        print(f"   🤖 交給 {GEMINI_MODEL} 解析中（通常需要 30 秒～2 分鐘）…", flush=True)
+        print(f"   🤖 交給 {model} 解析中（通常需要 30 秒～2 分鐘，最多等 {GEMINI_TIMEOUT} 秒）…", flush=True)
         try:
-            response = client.models.generate_content(**kwargs)
+            response = call_with_deadline(
+                lambda: client.models.generate_content(model=model, **kwargs), GEMINI_TIMEOUT)
             print(f"   ⏱️ 耗時 {time.monotonic() - start:.0f} 秒")
             return response
-        except (errors.ServerError, httpx.TimeoutException) as e:
-            if attempt == len(delays):
+        except errors.ServerError as e:
+            last_error = e
+            print(f"   ⏳ {model} 伺服器忙碌（{e.code}）", flush=True)
+        except (TimeoutError, httpx.TimeoutException) as e:
+            last_error = e
+            print(f"   ⏳ {model} 超過 {GEMINI_TIMEOUT} 秒沒有回應", flush=True)
+        except errors.ClientError as e:
+            if e.code != 404:
                 raise
-            reason = f"{e.code} 伺服器忙碌" if isinstance(e, errors.ServerError) else "逾時"
-            print(f"   ⏳ {reason}，{delays[attempt]} 秒後重試（{attempt + 1}/{len(delays)}）", flush=True)
-            time.sleep(delays[attempt])
+            last_error = e
+            print(f"   ⏳ {model} 無法使用（404）", flush=True)
+        _model_index += 1
+        if _model_index < len(GEMINI_MODELS):
+            print(f"   🔁 改用 {GEMINI_MODELS[_model_index]}", flush=True)
+    raise AllModelsFailed(f"所有模型（{'、'.join(GEMINI_MODELS)}）都忙碌、逾時或無法使用") from last_error
 
 
 def parse_with_llm(client, source, page_text):
     from google.genai import types
 
-    response = generate_with_retry(
+    response = generate_with_fallback(
         client,
-        model=GEMINI_MODEL,
         contents=build_prompt(source, page_text),
         config=types.GenerateContentConfig(
             response_mime_type="application/json",
@@ -225,6 +279,15 @@ def merge_campaigns(existing, card, new_items):
     return kept[:insert_at] + new_items + kept[insert_at:]
 
 
+def save_campaigns(campaigns):
+    """先寫到暫存檔再取代，避免寫到一半被中斷而留下壞掉的 JSON"""
+    tmp_path = CAMPAIGNS_PATH + ".tmp"
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(campaigns, f, ensure_ascii=False, indent=4)
+        f.write("\n")
+    os.replace(tmp_path, CAMPAIGNS_PATH)
+
+
 def main():
     parser = argparse.ArgumentParser(description="爬取信用卡優惠並更新 campaigns.json")
     parser.add_argument("--card", help="只處理卡名包含此字串的卡片")
@@ -244,8 +307,8 @@ def main():
                      "   （到 https://aistudio.google.com/apikey 申請；只想測試抓取可加 --text-only）")
         from google import genai
         from google.genai import types
-        # 單次請求最多等 5 分鐘（單位毫秒）；重試由 generate_with_retry 負責並印出進度
-        client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=300_000))
+        # timeout 單位為毫秒；重試與換模型由 generate_with_fallback 負責
+        client = genai.Client(api_key=api_key, http_options=types.HttpOptions(timeout=GEMINI_TIMEOUT * 1000))
 
     with open(CAMPAIGNS_PATH, encoding="utf-8") as f:
         campaigns = json.load(f)
@@ -269,13 +332,12 @@ def main():
             fatal = {
                 401: "API Key 無效，請確認 GEMINI_API_KEY",
                 403: "API Key 沒有權限，請確認 GEMINI_API_KEY",
-                404: f"模型 {GEMINI_MODEL} 無法使用，請用 GEMINI_MODEL 環境變數指定其他模型",
                 429: "Gemini API 額度已用完，請到 https://aistudio.google.com/spend 調整上限或稍後再試",
-                503: "Gemini 伺服器持續忙碌（已自動重試），請稍後再試，或用 GEMINI_MODEL 指定其他模型",
             }
             code = getattr(e, "code", None)
-            if code in fatal:
-                print(f"   ⛔ {fatal[code]}，停止處理其餘卡片")
+            if isinstance(e, AllModelsFailed) or code in fatal:
+                reason = "請稍後再試，或用 GEMINI_MODEL 環境變數指定其他模型" if isinstance(e, AllModelsFailed) else fatal[code]
+                print(f"   ⛔ {reason}，停止處理其餘卡片")
                 failed.extend(s["card"] for s in sources[sources.index(source) + 1:])
                 break
             continue
@@ -286,18 +348,17 @@ def main():
         print(f"   ✅ 解析出 {len(items)} 個方案：{'、'.join(i['campaignName'] for i in items)}")
         campaigns = merge_campaigns(campaigns, card, items)
         updated.append(card)
+        # 每張卡成功就立即處理，後面的卡失敗或中斷（Ctrl+C）也不會浪費這次解析
+        if args.dry_run:
+            print(json.dumps(items, ensure_ascii=False, indent=4))
+        else:
+            save_campaigns(campaigns)
+            print(f"   💾 已寫入 {CAMPAIGNS_PATH}")
 
     if args.text_only:
         return
-    if args.dry_run:
-        if updated:
-            print(json.dumps(campaigns, ensure_ascii=False, indent=4))
-    elif updated:
-        with open(CAMPAIGNS_PATH, "w", encoding="utf-8") as f:
-            json.dump(campaigns, f, ensure_ascii=False, indent=4)
-            f.write("\n")
-        print(f"💾 已更新 {CAMPAIGNS_PATH}（{'、'.join(updated)}）")
-
+    if updated:
+        print(f"{'🧪 dry-run，未寫檔' if args.dry_run else '💾 已更新'}：{'、'.join(updated)}")
     if failed:
         print(f"⚠️ 以下卡片未更新：{'、'.join(failed)}")
     if not updated:

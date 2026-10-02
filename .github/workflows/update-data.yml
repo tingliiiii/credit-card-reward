@@ -2,8 +2,8 @@ name: 更新信用卡優惠資料
 
 on:
   schedule:
-    # 每週一 09:00（台灣時間）= 01:00 UTC
-    - cron: '0 1 * * 1'
+    # 每月一日 09:00（台灣時間）= 01:00 UTC
+    - cron: '0 1 1 * *'
   # 可在 GitHub → Actions → 「更新信用卡優惠資料」→ Run workflow 手動觸發
   workflow_dispatch:
 

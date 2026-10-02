@@ -112,7 +112,7 @@ python scraper.py --text-only     # 只印出抓到的網頁文字（不需 API 
 
 ### 自動排程（GitHub Actions）
 
-`.github/workflows/update-data.yml` 每週一 09:00（台灣時間）執行爬蟲，若資料有變動會自動開一個 PR，
+`.github/workflows/update-data.yml` 每月一日 09:00（台灣時間）執行爬蟲，若資料有變動會自動開一個 PR，
 人工確認 diff 無誤後 merge，就會觸發部署。也可以在 GitHub → Actions → 「更新信用卡優惠資料」→ Run workflow 手動執行。
 
 首次使用需設定：
@@ -121,20 +121,30 @@ python scraper.py --text-only     # 只印出抓到的網頁文字（不需 API 
 2. Settings → Actions → General → Workflow permissions → 勾選 **Allow GitHub Actions to create and approve pull requests**
 3. Settings → Pages → Source 選 `gh-pages` 分支
 
+> 第 2 步的選項名稱雖然包含「approve」，但 workflow 只會開 PR，不會核准或合併；且 GitHub 不允許 PR 作者核准自己的 PR，所以一定要由你手動 Merge。
+
+若想在規則上強制「必須經你核准才能合併」（選用）：
+
+1. Settings → Rules → Rulesets → New branch ruleset，Target branches 選 `main`
+2. 勾選 **Require a pull request before merging**，Required approvals 設為 `1`
+3. **Bypass list 加入 Repository admin**：否則你自己直接 push 到 `main` 也會被擋
+
 ## 常見問題
 
 **SSL 錯誤 `certificate verify failed: Missing Subject Key Identifier`**
 Python 3.13 起預設的憑證檢查較嚴格，部分台灣銀行憑證不符合。`scraper.py` 已處理（只放寬該項檢查，仍會驗證憑證），請勿改用 `verify=False`。
 
-**`404 NOT_FOUND`：模型無法使用**
-Google 會陸續下架舊模型。預設模型寫在 `scraper.py` 的 `GEMINI_MODEL`，也可以不改程式、臨時指定：
-`GEMINI_MODEL=其他模型名稱 python scraper.py`。可用模型請見 [Gemini 模型列表](https://ai.google.dev/gemini-api/docs/models)。
+**模型忙碌（`503`）、沒反應或已下架（`404`）**
+程式會依序嘗試 `scraper.py` 中 `GEMINI_MODELS` 列出的模型（預設 `gemini-3.8-flash` → `3.7` → `3.6` → `3.5`）：
+
+- 忙碌（503）、超過 `GEMINI_TIMEOUT`（180 秒）沒完成，或模型不存在（404）：直接換下一個
+- 換到可用的模型後，後面的卡片會直接用它
+
+全部失敗就稍後再跑。也可以不改程式、臨時指定模型順序（逗號分隔）：
+`GEMINI_MODEL=gemini-3.7-flash,gemini-3.5-flash python scraper.py`。可用模型請見 [Gemini 模型列表](https://ai.google.dev/gemini-api/docs/models)。
 
 **`429 RESOURCE_EXHAUSTED`**
-API 額度或每月花費上限已用完，到 [AI Studio](https://aistudio.google.com/spend) 調整或等下個月重置。
-
-**`503 UNAVAILABLE`：模型忙碌**
-Google 端暫時性的流量高峰。程式會自動重試約 2 分鐘，仍失敗就稍後再跑，或換一個模型。
+API 額度或每月花費上限已用完，到 [AI Studio](https://aistudio.google.com/spend) 調整或等下個月重置。換模型無效，程式會直接停止。
 
 **`KeyError: 'GEMINI_API_KEY'` 或「未設定 GEMINI_API_KEY」**
 目前的終端機沒有設定金鑰，請重新執行 `export GEMINI_API_KEY=...`。
