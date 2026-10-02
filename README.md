@@ -14,10 +14,10 @@
 
 | 部分 | 技術 | 說明 |
 | --- | --- | --- |
-| 前端 | Vue 3 + TypeScript + Vite + Bootstrap 5 | 純靜態頁面，打包時直接讀入 `campaigns.json` |
+| 前端 | Vue 3 + TypeScript + Vite + Bootstrap 5（SCSS 按需引入） | 純靜態頁面，打包時直接讀入 `campaigns.json` |
 | 資料 | `src/assets/campaigns.json` | 所有卡片的回饋方案 |
 | 爬蟲 | Python + requests + BeautifulSoup + Gemini | 抓官網文字，由 LLM 轉成 JSON |
-| 自動化 | GitHub Actions | 每週自動爬取並開 PR、merge 後自動部署 |
+| 自動化 | GitHub Actions | 每月自動爬取並開 PR、merge 後自動部署 |
 
 ## 前端開發
 
@@ -26,12 +26,30 @@
 ```bash
 npm install
 npm run dev       # 本機開發 http://localhost:5173/credit-card-reward/
-npm run build     # 打包到 dist/
+npm run build     # 型別檢查（vue-tsc）後打包到 dist/
 npm run serve     # 預覽打包結果
+npm test          # 單元測試（Vitest）
+npm run lint      # ESLint 檢查
+npm run format    # Prettier 格式化
 ```
 
-推送到 `main` 後，`.github/workflows/deploy.yml` 會自動 build 並發布到 `gh-pages` 分支。
+推送到 `main` 後，`.github/workflows/deploy.yml` 會依序執行 lint、測試、build，並發布到 `gh-pages` 分支。
 （仍可手動執行 `npm run build && npm run deploy`。）
+
+搜尋條件會同步到網址（例如 `?q=日本&card=國泰 CUBE 卡`），可直接分享連結。
+頁尾的「最後更新」日期在 build 時從 `campaigns.json` 最後一次 commit 的時間自動帶入，不需手動修改。
+
+### 前端結構
+
+```
+src/
+  App.vue                 # 頁面組裝
+  components/             # AppHeader、CardFilter、CampaignCard、AppFooter、AppIcon
+  composables/            # useCampaignSearch（搜尋＋網址同步）、useScrolled、useToday、useQueryParam
+  utils/                  # 純函式：明細解析、排序、日期狀態、關鍵字高亮（附 __tests__）
+  types/campaign.ts       # campaigns.json 的資料型別
+  styles/                 # bootstrap.scss（按需引入）、main.css（自訂樣式）
+```
 
 ## 資料格式
 
@@ -47,9 +65,11 @@ npm run serve     # 預覽打包結果
         "AI工具：ChatGPT、Canva、Claude",
         "網購平台：蝦皮購物、momo購物網"
     ],
-    "link": ["https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"]
+    "links": ["https://www.cathaybk.com.tw/cathaybk/personal/product/credit-card/cards/cube-list/"]
 }
 ```
+
+型別定義在 `src/types/campaign.ts`，欄位有變動時要和 `scraper.py` 一起修改，否則 `npm run build` 的型別檢查會失敗。
 
 前端會用 `campaignName`、`card`、`rewardRates`、`details` 做關鍵字搜尋，並依 `card` 分組顯示。
 **同一張卡的 `card` 名稱必須完全一致**，否則會被分成兩組。
