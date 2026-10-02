@@ -1,0 +1,6 @@
+dist
+node_modules
+package-lock.json
+# 由 scraper.py 產生，維持 Python json.dump 的格式
+src/assets/campaigns.json
+*.md
