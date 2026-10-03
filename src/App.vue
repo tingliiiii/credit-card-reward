@@ -4,7 +4,7 @@
   <main class="container">
     <div class="toolbar">
       <CardFilter v-model="selectedCard" :cards="cardNames" />
-      <p class="result-count">共 {{ results.length }} 個優惠<span v-if="trimmedQuery">，回饋高的排前面</span></p>
+      <p class="result-count">共 {{ results.length }} 個優惠</p>
     </div>
 
     <div v-if="results.length === 0" class="empty-state text-center">

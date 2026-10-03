@@ -35,7 +35,7 @@ import AppIcon from './AppIcon.vue';
 
 const searchQuery = defineModel<string>({ required: true });
 
-const hotKeywords = ['超商', '日本', 'LINE Pay', '餐飲', '加油', '百貨', 'Uber', '網購'];
+const hotKeywords = ['全家', 'LINE Pay', '日本', '蝦皮', 'momo', 'Uber Eats', '高鐵', '星巴克'];
 
 // 捲動後收起標題，只留搜尋列
 const isScrolled = useScrolled();
